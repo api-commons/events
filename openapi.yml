@@ -1,0 +1,387 @@
+openapi: 3.1.0
+info:
+  title: Events and Ticketing (API Commons)
+  version: 0.1.0-draft.20261110
+  description: 'The common Events and Ticketing interface, distilled from the harvested OpenAPI of 123 providers
+    in the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /events:
+    get:
+      operationId: listEvents
+      summary: List events
+      tags:
+      - Events
+      x-commons-tier: core
+      x-commons-share: 0.92
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/Event'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createEvent
+      summary: Create an event
+      tags:
+      - Events
+      x-commons-tier: extended
+      x-commons-share: 0.44
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /events/{event_id}:
+    parameters:
+    - $ref: '#/components/parameters/event_id'
+    get:
+      operationId: getEvent
+      summary: Get an event
+      tags:
+      - Events
+      x-commons-tier: core
+      x-commons-share: 0.88
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    delete:
+      operationId: deleteEvent
+      summary: Delete an event
+      tags:
+      - Events
+      x-commons-tier: extended
+      x-commons-share: 0.4
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    patch:
+      operationId: updateEvent
+      summary: Update an event
+      tags:
+      - Events
+      x-commons-tier: extended
+      x-commons-share: 0.4
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /venues:
+    get:
+      operationId: listVenues
+      summary: List venues
+      tags:
+      - Venues
+      x-commons-tier: core
+      x-commons-share: 1.0
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id002
+                  $ref: '#/components/schemas/Venue'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /venues/{venue_id}:
+    parameters:
+    - $ref: '#/components/parameters/venue_id'
+    get:
+      operationId: getVenue
+      summary: Get a venue
+      tags:
+      - Venues
+      x-commons-tier: core
+      x-commons-share: 0.857
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+  /ticket-types:
+    post:
+      operationId: createTicketType
+      summary: Create a ticket type
+      tags:
+      - Ticket Types
+      x-commons-tier: core
+      x-commons-share: 0.8
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: &id003
+                $ref: '#/components/schemas/TicketType'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id003
+    get:
+      operationId: listTicketTypes
+      summary: List ticket types
+      tags:
+      - Ticket Types
+      x-commons-tier: core
+      x-commons-share: 0.6
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: *id003
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /tickets:
+    get:
+      operationId: listTickets
+      summary: List tickets
+      tags:
+      - Tickets
+      x-commons-tier: core
+      x-commons-share: 0.818
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id004
+                  $ref: '#/components/schemas/Ticket'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createTicket
+      summary: Create a ticket
+      tags:
+      - Tickets
+      x-commons-tier: core
+      x-commons-share: 0.545
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id004
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id004
+  /tickets/{ticket_id}:
+    parameters:
+    - $ref: '#/components/parameters/ticket_id'
+    get:
+      operationId: getTicket
+      summary: Get a ticket
+      tags:
+      - Tickets
+      x-commons-tier: core
+      x-commons-share: 0.727
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id004
+    patch:
+      operationId: updateTicket
+      summary: Update a ticket
+      tags:
+      - Tickets
+      x-commons-tier: extended
+      x-commons-share: 0.273
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id004
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id004
+  /attendees:
+    get:
+      operationId: listAttendees
+      summary: List attendees
+      tags:
+      - Attendees
+      x-commons-tier: core
+      x-commons-share: 1.0
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id005
+                  $ref: '#/components/schemas/Attendee'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createAttendee
+      summary: Create an attendee
+      tags:
+      - Attendees
+      x-commons-tier: extended
+      x-commons-share: 0.333
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id005
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id005
+  /attendees/{attendee_id}:
+    parameters:
+    - $ref: '#/components/parameters/attendee_id'
+    get:
+      operationId: getAttendee
+      summary: Get an attendee
+      tags:
+      - Attendees
+      x-commons-tier: core
+      x-commons-share: 0.6
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id005
+    patch:
+      operationId: updateAttendee
+      summary: Update an attendee
+      tags:
+      - Attendees
+      x-commons-tier: extended
+      x-commons-share: 0.267
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id005
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id005
+components:
+  schemas:
+    Event:
+      $ref: ./schema/event.json
+    Venue:
+      $ref: ./schema/venue.json
+    TicketType:
+      $ref: ./schema/ticket_type.json
+    Ticket:
+      $ref: ./schema/ticket.json
+    Attendee:
+      $ref: ./schema/attendee.json
+  parameters:
+    event_id:
+      name: event_id
+      in: path
+      required: true
+      schema:
+        type: string
+    venue_id:
+      name: venue_id
+      in: path
+      required: true
+      schema:
+        type: string
+    ticket_type_id:
+      name: ticket_type_id
+      in: path
+      required: true
+      schema:
+        type: string
+    ticket_id:
+      name: ticket_id
+      in: path
+      required: true
+      schema:
+        type: string
+    attendee_id:
+      name: attendee_id
+      in: path
+      required: true
+      schema:
+        type: string

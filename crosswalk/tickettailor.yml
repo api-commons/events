@@ -1,0 +1,29 @@
+provider: tickettailor
+apis_io: https://apis.io/providers/tickettailor/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/tickettailor-openapi.yml#GET /events
+    - openapi/_original/tickettailor-openapi.yml#GET /events/{id}
+  ticket_type:
+    path_segment:
+    - ticket_types
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/tickettailor-openapi.yml#POST /event_series/{id}/ticket_types
+  ticket:
+    path_segment:
+    - issued_tickets
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/tickettailor-openapi.yml#GET /issued_tickets
+    - openapi/_original/tickettailor-openapi.yml#GET /issued_tickets/{id}
+    - openapi/_original/tickettailor-openapi.yml#POST /issued_tickets

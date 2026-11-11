@@ -1,0 +1,52 @@
+provider: piknik-spot
+apis_io: https://apis.io/providers/piknik-spot/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name: title
+      start_at: start_date
+      end_at: end_date
+      description: description
+      event_type: event_type
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/piknik-spot-openapi.json#DELETE /events/{id}
+    - openapi/_original/piknik-spot-openapi.json#GET /events
+    - openapi/_original/piknik-spot-openapi.json#GET /events/{id}
+    - openapi/_original/piknik-spot-openapi.json#GET /participants/{id}/events
+    - openapi/_original/piknik-spot-openapi.json#POST /events
+  ticket_type:
+    path_segment:
+    - ticket-types
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/piknik-spot-openapi.json#DELETE /agritourism/campaigns/{id}/ticket-types/{ticketTypeId}
+    - openapi/_original/piknik-spot-openapi.json#PATCH /agritourism/campaigns/{id}/ticket-types/{ticketTypeId}
+    - openapi/_original/piknik-spot-openapi.json#POST /agritourism/campaigns/{id}/ticket-types
+    - openapi/_original/piknik-spot-openapi.json#PUT /agritourism/ticket-types/{id}
+    - openapi/_original/piknik-spot-openapi.yml#DELETE /agritourism/campaigns/{id}/ticket-types/{ticketTypeId}
+  ticket:
+    path_segment:
+    - tickets
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/piknik-spot-openapi.json#GET /agritourism/tickets
+    - openapi/_original/piknik-spot-openapi.json#GET /agritourism/tickets/{id}
+    - openapi/_original/piknik-spot-openapi.yml#GET /agritourism/tickets
+    - openapi/_original/piknik-spot-openapi.yml#GET /agritourism/tickets/{id}
+  attendee:
+    path_segment:
+    - attendees
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/piknik-spot-openapi.json#GET /agritourism/campaigns/{id}/scanner/attendees
+    - openapi/_original/piknik-spot-openapi.json#GET /events/tickets/attendees
+    - openapi/_original/piknik-spot-openapi.yml#GET /agritourism/campaigns/{id}/scanner/attendees
+    - openapi/_original/piknik-spot-openapi.yml#GET /events/tickets/attendees

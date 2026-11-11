@@ -1,0 +1,27 @@
+provider: airmeet
+apis_io: https://apis.io/providers/airmeet/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/airmeet-openapi.yml#GET /event-series/{eventSeriesId}/events
+  attendee:
+    path_segment:
+    - attendees
+    - attendee
+    properties:
+      email: email
+      first_name: firstName
+      last_name: lastName
+      city: city
+      country: country
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/airmeet-openapi.yml#GET /airmeet/{airmeetId}/attendees
+    - openapi/_original/airmeet-openapi.yml#GET /session/{sessionId}/attendees
+    - openapi/_original/airmeet-openapi.yml#POST /airmeet/{airmeetId}/attendee

@@ -1,0 +1,46 @@
+provider: constant-contact
+apis_io: https://apis.io/providers/constant-contact/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name:
+      - title
+      - name
+      start_at: start_time
+      end_at: end_time
+      status: status
+      created_at: create_time
+      description: description
+      time_zone: time_zone
+      event_type: event_type
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/constant-contact-v3-openapi.yml#GET /events
+    - openapi/_original/constant-contact-v3-openapi.yml#GET /events/{event_id}
+    - openapi/_original/constant-contact-v3-openapi.yml#PATCH /events/{event_id}
+  ticket:
+    path_segment:
+    - tickets
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/constant-contact-v3-openapi.yml#POST /events/{event_id}/check_in/tickets
+    - openapi/_original/constant-contact-v3-openapi.yml#POST /events/{event_id}/undo_check_in/tickets
+  attendee:
+    path_segment:
+    - registrations
+    properties:
+      email: email_address
+      first_name: first_name
+      last_name: last_name
+      checked_in: checkin_status
+      registration_status: registration_status
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/constant-contact-v3-openapi.yml#GET /events/{event_id}/tracks/{track_id}/registrations
+    - openapi/_original/constant-contact-v3-openapi.yml#GET /events/{event_id}/tracks/{track_id}/registrations/{registration_id}
+    - openapi/_original/constant-contact-v3-openapi.yml#PUT /events/{event_id}/tracks/{track_id}/registrations

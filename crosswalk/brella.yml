@@ -1,0 +1,19 @@
+provider: brella
+apis_io: https://apis.io/providers/brella/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/brella-openapi.yml#GET /organizations/{organizationId}/events
+  attendee:
+    path_segment:
+    - attendees
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/brella-openapi.yml#GET /organizations/{organizationId}/events/{eventId}/attendees

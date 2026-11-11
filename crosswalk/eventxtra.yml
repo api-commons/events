@@ -1,0 +1,45 @@
+provider: eventxtra
+apis_io: https://apis.io/providers/eventxtra/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - event
+    properties:
+      name: name
+      start_at: startsAt
+      end_at: endsAt
+      id: id
+      category: categories
+      status:
+      - isPublished
+      - status
+      created_at: createdAt
+      time_zone: timezone
+      updated_at: updatedAt
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/eventxtra-public-api-openapi.json#DELETE /public-api/v1/event/{eventId}
+    - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/event
+    - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/event/{eventId}
+    - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/reg/event/{eventId}
+    - openapi/_original/eventxtra-public-api-openapi.json#POST /public-api/v1/event
+  attendee:
+    path_segment:
+    - attendee
+    properties:
+      first_name: firstName
+      last_name: lastName
+      name: name
+      id: id
+      checked_in: checkedInAt
+      city: city
+      country: country
+      registration_status: registrationStatus
+      status: status
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/event/{eventId}/attendee
+    - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/event/{eventId}/attendee/{attendeeId}
+    - openapi/_original/eventxtra-public-api-openapi.json#PATCH /public-api/v1/event/{eventId}/attendee/{attendeeId}

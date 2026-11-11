@@ -1,0 +1,27 @@
+provider: on24
+apis_io: https://apis.io/providers/on24/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - event
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/on24-client-level-analytics-openapi.yml#GET /client/{clientId}/event
+    - openapi/_original/on24-event-level-analytics-openapi.yml#GET /client/{clientId}/event/{eventId}
+    - openapi/_original/on24-event-management-openapi.yml#DELETE /client/{clientId}/event/{eventId}
+    - openapi/_original/on24-event-management-openapi.yml#POST /client/{clientId}/event
+    - openapi/_original/on24-event-management-openapi.yml#PUT /client/{clientId}/event/{eventId}
+  attendee:
+    path_segment:
+    - attendee
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/on24-client-level-analytics-openapi.yml#GET /client/{clientId}/attendee
+    - openapi/_original/on24-client-level-analytics-openapi.yml#GET /client/{clientId}/attendee/{email}
+    - openapi/_original/on24-event-level-analytics-openapi.yml#GET /client/{clientId}/event/{eventId}/attendee
+    - openapi/_original/on24-openapi.json#GET /client/{clientId}/attendee
+    - openapi/_original/on24-openapi.json#GET /client/{clientId}/attendee/{email}

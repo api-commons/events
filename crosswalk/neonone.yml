@@ -1,0 +1,39 @@
+provider: neonone
+apis_io: https://apis.io/providers/neonone/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name: name
+      id: id
+      category: category
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/neonone-openapi.yml#DELETE /events/{id}
+    - openapi/_original/neonone-openapi.yml#GET /events/{id}
+    - openapi/_original/neonone-openapi.yml#POST /events
+    - openapi/_original/neonone-openapi.yml#PUT /events/{id}
+  ticket:
+    path_segment:
+    - tickets
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/neonone-openapi.yml#DELETE /events/{id}/tickets/{ticketId}
+    - openapi/_original/neonone-openapi.yml#GET /events/{id}/tickets
+    - openapi/_original/neonone-openapi.yml#GET /events/{id}/tickets/{ticketId}
+    - openapi/_original/neonone-openapi.yml#POST /events/{id}/tickets
+    - openapi/_original/neonone-openapi.yml#PUT /events/{id}/tickets/{ticketId}
+  attendee:
+    path_segment:
+    - attendees
+    properties:
+      email: email
+      name: eventName
+      city: city
+    core_coverage: 0.4
+    evidence:
+    - openapi/_original/neonone-openapi.yml#GET /events/{id}/attendees

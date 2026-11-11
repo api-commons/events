@@ -1,0 +1,58 @@
+provider: cvent
+apis_io: https://apis.io/providers/cvent/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name:
+      - name
+      - title
+      start_at: start
+      end_at: end
+      id: id
+      category:
+      - category
+      - type
+      status:
+      - status
+      - eventStatus
+      venue_id: venues
+      created_at: created
+      description: description
+      time_zone: timezone
+      currency: currency
+      updated_at: lastModified
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cvent-openapi.json#GET /events
+    - openapi/_original/cvent-openapi.json#GET /events/{id}
+    - openapi/_original/cvent-openapi.json#PUT /events/{id}
+    - openapi/_original/cvent-public-spec-openapi.yaml#GET /events
+    - openapi/_original/cvent-public-spec-openapi.yaml#GET /events/{id}
+  attendee:
+    path_segment:
+    - attendees
+    - guests
+    properties:
+      email: email
+      first_name: first_name
+      last_name: last_name
+      name: name
+      id: id
+      checked_in: checkedIn
+      event_id:
+      - event_id
+      - eventId
+      - event
+      registration_status: registrationStatus
+      status: status
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cvent-openapi.json#DELETE /audience-segments/{audienceSegmentId}/attendees/{attendeeId}
+    - openapi/_original/cvent-openapi.json#GET /attendees
+    - openapi/_original/cvent-openapi.json#GET /attendees/{id}
+    - openapi/_original/cvent-openapi.json#GET /audience-segments/{audienceSegmentId}/attendees
+    - openapi/_original/cvent-openapi.json#GET /events/{id}/vouchers/{voucherId}/attendees

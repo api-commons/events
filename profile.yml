@@ -1,0 +1,747 @@
+context: events
+name: Events and Ticketing
+generated: '2026-11-10'
+version: 0.1.0-draft.20261110
+status: draft
+cohort:
+  tags:
+  - Event
+  - Events
+  - Ticketing
+  - Event Ticketing
+  - Event Management
+  - Live Events
+  - Conferences
+  - Venues
+  providers_with_harvested_openapi: 123
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded:
+  venue:
+    elisa: not an event venue
+    employ-inc: job-site locations
+    findlocal: local-business listings
+    hpsf: not an event venue
+    impossible-metals: not an event venue
+    quaker-houghton: not an event venue
+    uncle-nearest: brand location listings
+    breeze-chms: church-management locations
+  event:
+    entergram: Telegram-account events
+duplicates:
+  cvent:
+  - cvent-hospitality-cloud
+  - cvent-registration
+  - cvent-event-cloud
+  - cvent-platform
+  - cvent-social-tables
+  goto-webinar:
+  - gotowebinar
+shared_specs: {}
+concepts:
+  event:
+    segments_seen:
+      events: 23
+      event: 5
+      attractions: 1
+    providers_exposing: 25
+    providers_with_readable_schema: 21
+    operations:
+    - operation: GET collection
+      providers: 23
+      share: 0.92
+      tier: core
+    - operation: GET item
+      providers: 22
+      share: 0.88
+      tier: core
+    - operation: POST collection
+      providers: 11
+      share: 0.44
+      tier: extended
+    - operation: DELETE item
+      providers: 10
+      share: 0.4
+      tier: extended
+    - operation: UPDATE item
+      providers: 10
+      share: 0.4
+      tier: extended
+    - operation: POST item
+      providers: 4
+      share: 0.16
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 2
+      share: 0.08
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.04
+      tier: long-tail
+    properties:
+    - name: name
+      tier: core
+      providers: 18
+      share: 0.857
+      type: string
+      spellings:
+      - name
+      - title
+      - Title
+    - name: start_at
+      tier: core
+      providers: 16
+      share: 0.762
+      type: string
+      spellings:
+      - start_time
+      - start_date
+      - start
+      - startDate
+      - Dates
+      - StartsAt
+      - startAt
+      - start_at
+    - name: end_at
+      tier: core
+      providers: 15
+      share: 0.714
+      type: string
+      spellings:
+      - end_time
+      - end_date
+      - end
+      - endDate
+      - EndsAt
+      - endAt
+      - end_at
+      - endsAt
+    - name: id
+      tier: core
+      providers: 15
+      share: 0.714
+      type: string
+      spellings:
+      - id
+      - Id
+      - uuid
+      - externalId
+      - '@id'
+      - _id
+    - name: category
+      tier: core
+      providers: 11
+      share: 0.524
+      type: string
+      spellings:
+      - type
+      - category
+      - categories
+      - classification
+      - classifications
+    - name: status
+      tier: extended
+      providers: 10
+      share: 0.476
+      type: string
+      spellings:
+      - status
+      - IsPublished
+      - eventStatus
+      - isPublished
+    - name: venue_id
+      tier: extended
+      providers: 9
+      share: 0.429
+      type: object
+      spellings:
+      - venue
+      - venue_id
+      - location
+      - Location
+      - venues
+    - name: created_at
+      tier: extended
+      providers: 8
+      share: 0.381
+      type: string
+      spellings:
+      - created
+      - createdAt
+      - CreatedAt
+      - created_at
+      - create_time
+      - creation_date
+    - name: description
+      tier: extended
+      providers: 8
+      share: 0.381
+      type: string
+      spellings:
+      - description
+    - name: time_zone
+      tier: extended
+      providers: 7
+      share: 0.333
+      type: string
+      spellings:
+      - timezone
+      - time_zone
+    - name: currency
+      tier: extended
+      providers: 5
+      share: 0.238
+      type: string
+      spellings:
+      - currency
+      - Currency
+    - name: event_type
+      tier: extended
+      providers: 5
+      share: 0.238
+      type: string
+      spellings:
+      - eventType
+      - event_type
+      - EventType
+    - name: updated_at
+      tier: extended
+      providers: 5
+      share: 0.238
+      type: string
+      spellings:
+      - updatedAt
+      - updated_at
+      - lastModified
+      - modified
+    long_tail_count: 563
+    long_tail_sample:
+    - event_id
+    - pagination
+    - address
+    - languages
+    - location_name
+    - metadata
+    - capacity
+    - category_id
+    - contact
+    - default_locale
+    - embedded
+    - event_code
+    - format
+    - image
+    - is_active
+    - is_recurring
+    - locale
+    - organization_id
+    - organizer_id
+    - registration_url
+    - slug
+    - total_items
+    - types
+    - url
+    - academic_calendar_category
+    - accent_color
+    - access_code_is_valid
+    - access_key
+    - access_list_mapping
+    - access_message
+    - access_state
+    - account_id
+    - account_settings
+    - accounting_code
+    - acct_code
+    - active_time
+    - add_ons
+    - addon_title
+    - addons
+    - allow_refund_donation
+  venue:
+    segments_seen:
+      venues: 7
+      venue: 1
+    providers_exposing: 7
+    providers_with_readable_schema: 7
+    operations:
+    - operation: GET collection
+      providers: 7
+      share: 1.0
+      tier: core
+    - operation: GET item
+      providers: 6
+      share: 0.857
+      tier: core
+    - operation: POST collection
+      providers: 2
+      share: 0.286
+      tier: long-tail
+    - operation: DELETE item
+      providers: 1
+      share: 0.143
+      tier: long-tail
+    - operation: UPDATE item
+      providers: 1
+      share: 0.143
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 6
+      share: 0.857
+      type: string
+      spellings:
+      - id
+      - uuid
+      - externalId
+    - name: name
+      tier: core
+      providers: 6
+      share: 0.857
+      type: string
+      spellings:
+      - name
+    - name: address
+      tier: core
+      providers: 4
+      share: 0.571
+      type: object
+      spellings:
+      - address
+      - location
+    - name: city
+      tier: extended
+      providers: 3
+      share: 0.429
+      type: string
+      spellings:
+      - city
+    - name: postal_code
+      tier: extended
+      providers: 3
+      share: 0.429
+      type: string
+      spellings:
+      - postal_code
+      - postalCode
+    long_tail_count: 23
+    long_tail_sample:
+    - capacity
+    - country
+    - embedded
+    - latitude
+    - longitude
+    - pagination
+    - status
+    - timezone
+    - age_restriction
+    - coordinates
+    - has_upcoming_events
+    - images
+    - locale
+    - page_size
+    - request
+    - score
+    - slug
+    - state_province
+    - timezone_id
+    - total_items
+    - type
+    - upcoming_events
+    - venue_sections
+  ticket_type:
+    segments_seen:
+      ticket-types: 2
+      products: 1
+      ticket_classes: 1
+      ticket_types: 1
+    providers_exposing: 5
+    providers_with_readable_schema: 3
+    operations:
+    - operation: POST collection
+      providers: 4
+      share: 0.8
+      tier: core
+    - operation: GET collection
+      providers: 3
+      share: 0.6
+      tier: core
+    - operation: GET item
+      providers: 2
+      share: 0.4
+      tier: long-tail
+    - operation: UPDATE item
+      providers: 2
+      share: 0.4
+      tier: long-tail
+    - operation: DELETE item
+      providers: 1
+      share: 0.2
+      tier: long-tail
+    properties:
+    - name: description
+      tier: core
+      providers: 3
+      share: 1.0
+      type: string
+      spellings:
+      - description
+    - name: id
+      tier: core
+      providers: 3
+      share: 1.0
+      type: string
+      spellings:
+      - id
+      - uuid
+      - externalId
+    - name: name
+      tier: core
+      providers: 3
+      share: 1.0
+      type: string
+      spellings:
+      - name
+    - name: price
+      tier: core
+      providers: 3
+      share: 1.0
+      type: number
+      spellings:
+      - price
+      - cost
+    long_tail_count: 74
+    long_tail_sample:
+    - created_at
+    - quantity
+    - quantity_sold
+    - additional_information
+    - barcode_id
+    - campaign_id
+    - canceled_at
+    - commitment
+    - commitment_id
+    - currency_id
+    - customer_data
+    - deductible_amount
+    - deductible_percent
+    - donation
+    - ended_at
+    - entries_per_ticket
+    - event_id
+    - expire_at
+    - external_barcode_id
+    - external_id_1
+    - external_id_2
+    - external_id_3
+    - fee
+    - first_page_url
+    - free
+    - from
+    - has_unlimited_stock
+    - hidden
+    - is_active
+    - is_classy_mode
+    - is_personalizable
+    - is_visible
+    - last_page
+    - last_page_url
+    - last_scanned_at
+    - max_per_transaction
+    - maximum_quantity
+    - min_per_transaction
+    - minimum_quantity
+    - next_page_url
+  ticket:
+    segments_seen:
+      tickets: 9
+      ticket: 2
+      passes: 1
+      issued_tickets: 1
+    providers_exposing: 11
+    providers_with_readable_schema: 8
+    operations:
+    - operation: GET collection
+      providers: 9
+      share: 0.818
+      tier: core
+    - operation: GET item
+      providers: 8
+      share: 0.727
+      tier: core
+    - operation: POST collection
+      providers: 6
+      share: 0.545
+      tier: core
+    - operation: UPDATE item
+      providers: 3
+      share: 0.273
+      tier: extended
+    - operation: DELETE item
+      providers: 2
+      share: 0.182
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 4
+      share: 0.5
+      type: string
+      spellings:
+      - id
+      - uuid
+      - externalId
+      - _id
+    - name: status
+      tier: core
+      providers: 4
+      share: 0.5
+      type: string
+      spellings:
+      - status
+      - state
+    - name: barcode
+      tier: extended
+      providers: 3
+      share: 0.375
+      type: string
+      spellings:
+      - barcode
+    - name: event_id
+      tier: extended
+      providers: 3
+      share: 0.375
+      type: string
+      spellings:
+      - eventId
+      - event
+      - event_id
+    long_tail_count: 154
+    long_tail_sample:
+    - checked_in_at
+    - created_at
+    - download_url
+    - email
+    - expires_at
+    - first_name
+    - last_name
+    - name
+    - ticket_type_id
+    - updated_at
+    - active_status
+    - add_ons
+    - addonable
+    - answers
+    - barcode_reveal_date
+    - barcode_revealed
+    - barcodes
+    - batch
+    - batch_counter
+    - can_be_downloaded
+    - can_be_topped_up
+    - can_be_transferred
+    - can_edit_ticket_transfer
+    - can_show_barcode
+    - capabilities
+    - card_system
+    - cart_item_id
+    - cashless_tag_uid
+    - category_name
+    - category_ref
+    - city
+    - claimed
+    - company
+    - completed
+    - country
+    - coupons
+    - currency
+    - currency_id
+    - custom_delivery_note
+    - custom_message
+  attendee:
+    segments_seen:
+      attendees: 8
+      attendee: 3
+      registrations: 3
+      registrants: 2
+      guests: 1
+    providers_exposing: 15
+    providers_with_readable_schema: 11
+    operations:
+    - operation: GET collection
+      providers: 15
+      share: 1.0
+      tier: core
+    - operation: GET item
+      providers: 9
+      share: 0.6
+      tier: core
+    - operation: POST collection
+      providers: 5
+      share: 0.333
+      tier: extended
+    - operation: UPDATE item
+      providers: 4
+      share: 0.267
+      tier: extended
+    - operation: DELETE item
+      providers: 2
+      share: 0.133
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.067
+      tier: long-tail
+    - operation: POST item
+      providers: 1
+      share: 0.067
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.067
+      tier: long-tail
+    properties:
+    - name: email
+      tier: core
+      providers: 8
+      share: 0.727
+      type: string
+      spellings:
+      - email
+      - Email
+      - email_address
+    - name: first_name
+      tier: core
+      providers: 7
+      share: 0.636
+      type: string
+      spellings:
+      - first_name
+      - firstName
+      - FirstName
+    - name: last_name
+      tier: core
+      providers: 7
+      share: 0.636
+      type: string
+      spellings:
+      - last_name
+      - lastName
+      - LastName
+    - name: name
+      tier: core
+      providers: 7
+      share: 0.636
+      type: string
+      spellings:
+      - name
+      - DisplayName
+      - Name
+      - title
+      - eventName
+    - name: id
+      tier: core
+      providers: 6
+      share: 0.545
+      type: string
+      spellings:
+      - id
+      - Id
+      - AttendeeId
+      - ExternalId
+    - name: checked_in
+      tier: extended
+      providers: 4
+      share: 0.364
+      type: string
+      spellings:
+      - checkin_status
+      - checkedIn
+      - checkedInAt
+      - checked_in
+    - name: city
+      tier: extended
+      providers: 4
+      share: 0.364
+      type: string
+      spellings:
+      - city
+      - City
+    - name: event_id
+      tier: extended
+      providers: 4
+      share: 0.364
+      type: string
+      spellings:
+      - event_id
+      - EventId
+      - eventId
+      - event
+    - name: country
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - country
+      - Country
+    - name: registration_status
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - registrationStatus
+      - registration_status
+    - name: status
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - status
+      - Status
+    long_tail_count: 240
+    long_tail_sample:
+    - attendance_type
+    - contact
+    - contact_id
+    - created_at
+    - metadata
+    - pagination
+    - questions
+    - registered_at
+    - registration_id
+    - updated_at
+    - access_key
+    - add_ons
+    - added_count
+    - addons
+    - address_line1
+    - administrator
+    - admission_item
+    - admission_item_id
+    - all_signatures_complete
+    - allow_appointment_push_notifications
+    - allow_push_notifications
+    - answers
+    - appointment_groups
+    - approval_status
+    - approved_at
+    - area_code
+    - attended_at
+    - attendee_code
+    - attendee_display
+    - attendee_display_lines
+    - attendee_last_modified
+    - attendee_number
+    - attendee_tag_id_list
+    - attendee_type_id
+    - bar_code
+    - bio
+    - boundary_visibility
+    - buyer_first_name
+    - buyer_last_name
+    - can_continue

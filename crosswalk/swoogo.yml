@@ -1,0 +1,37 @@
+provider: swoogo
+apis_io: https://apis.io/providers/swoogo/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name: name
+      start_at: start_date
+      end_at: end_date
+      id: id
+      status: status
+      time_zone: timezone
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/swoogo-openapi.yml#GET /events
+    - openapi/_original/swoogo-openapi.yml#GET /events/{event_id}
+    - openapi/_original/swoogo-openapi.yml#POST /events
+    - openapi/_original/swoogo-openapi.yml#PUT /events/{event_id}
+  attendee:
+    path_segment:
+    - registrants
+    properties:
+      email: email
+      first_name: first_name
+      last_name: last_name
+      id: id
+      checked_in: checked_in
+      event_id: event_id
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/swoogo-openapi.yml#GET /registrants
+    - openapi/_original/swoogo-openapi.yml#GET /registrants/{registrant_id}
+    - openapi/_original/swoogo-openapi.yml#POST /registrants
+    - openapi/_original/swoogo-openapi.yml#PUT /registrants/{registrant_id}

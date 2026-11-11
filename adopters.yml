@@ -1,0 +1,170 @@
+context: events
+generated: '2026-11-10'
+adopters:
+- provider: airmeet
+  apis_io: https://apis.io/providers/airmeet/
+  crosswalk: crosswalk/airmeet.yml
+  concepts:
+  - attendee
+  - event
+- provider: brella
+  apis_io: https://apis.io/providers/brella/
+  crosswalk: crosswalk/brella.yml
+  concepts:
+  - attendee
+  - event
+- provider: brushfire
+  apis_io: https://apis.io/providers/brushfire/
+  crosswalk: crosswalk/brushfire.yml
+  concepts:
+  - attendee
+  - event
+- provider: cm-com
+  apis_io: https://apis.io/providers/cm-com/
+  crosswalk: crosswalk/cm-com.yml
+  concepts:
+  - event
+  - ticket
+  - ticket_type
+  - venue
+- provider: constant-contact
+  apis_io: https://apis.io/providers/constant-contact/
+  crosswalk: crosswalk/constant-contact.yml
+  concepts:
+  - attendee
+  - event
+  - ticket
+- provider: cvent
+  apis_io: https://apis.io/providers/cvent/
+  crosswalk: crosswalk/cvent.yml
+  concepts:
+  - attendee
+  - event
+- provider: epfl
+  apis_io: https://apis.io/providers/epfl/
+  crosswalk: crosswalk/epfl.yml
+  concepts:
+  - attendee
+  - event
+- provider: eventbrite
+  apis_io: https://apis.io/providers/eventbrite/
+  crosswalk: crosswalk/eventbrite.yml
+  concepts:
+  - attendee
+  - event
+  - ticket_type
+  - venue
+- provider: eventxtra
+  apis_io: https://apis.io/providers/eventxtra/
+  crosswalk: crosswalk/eventxtra.yml
+  concepts:
+  - attendee
+  - event
+- provider: eventzilla
+  apis_io: https://apis.io/providers/eventzilla/
+  crosswalk: crosswalk/eventzilla.yml
+  concepts:
+  - attendee
+  - event
+  - ticket
+- provider: gofundme
+  apis_io: https://apis.io/providers/gofundme/
+  crosswalk: crosswalk/gofundme.yml
+  concepts:
+  - ticket_type
+- provider: hopin
+  apis_io: https://apis.io/providers/hopin/
+  crosswalk: crosswalk/hopin.yml
+  concepts:
+  - attendee
+  - event
+  - ticket
+- provider: howler
+  apis_io: https://apis.io/providers/howler/
+  crosswalk: crosswalk/howler.yml
+  concepts:
+  - event
+  - ticket
+- provider: jambase
+  apis_io: https://apis.io/providers/jambase/
+  crosswalk: crosswalk/jambase.yml
+  concepts:
+  - event
+  - venue
+- provider: neonone
+  apis_io: https://apis.io/providers/neonone/
+  crosswalk: crosswalk/neonone.yml
+  concepts:
+  - attendee
+  - event
+  - ticket
+- provider: on24
+  apis_io: https://apis.io/providers/on24/
+  crosswalk: crosswalk/on24.yml
+  concepts:
+  - attendee
+  - event
+- provider: parkwhiz
+  apis_io: https://apis.io/providers/parkwhiz/
+  crosswalk: crosswalk/parkwhiz.yml
+  concepts:
+  - event
+  - ticket
+  - venue
+- provider: piknik-spot
+  apis_io: https://apis.io/providers/piknik-spot/
+  crosswalk: crosswalk/piknik-spot.yml
+  concepts:
+  - attendee
+  - event
+  - ticket
+  - ticket_type
+- provider: publiq
+  apis_io: https://apis.io/providers/publiq/
+  crosswalk: crosswalk/publiq.yml
+  concepts:
+  - event
+  - ticket
+- provider: seatgeek
+  apis_io: https://apis.io/providers/seatgeek/
+  crosswalk: crosswalk/seatgeek.yml
+  concepts:
+  - event
+  - venue
+- provider: sequel
+  apis_io: https://apis.io/providers/sequel/
+  crosswalk: crosswalk/sequel.yml
+  concepts:
+  - attendee
+  - event
+- provider: swoogo
+  apis_io: https://apis.io/providers/swoogo/
+  crosswalk: crosswalk/swoogo.yml
+  concepts:
+  - attendee
+  - event
+- provider: ticketmaster
+  apis_io: https://apis.io/providers/ticketmaster/
+  crosswalk: crosswalk/ticketmaster.yml
+  concepts:
+  - event
+  - venue
+- provider: tickettailor
+  apis_io: https://apis.io/providers/tickettailor/
+  crosswalk: crosswalk/tickettailor.yml
+  concepts:
+  - event
+  - ticket
+  - ticket_type
+- provider: viagogo
+  apis_io: https://apis.io/providers/viagogo/
+  crosswalk: crosswalk/viagogo.yml
+  concepts:
+  - event
+  - venue
+- provider: vivenu
+  apis_io: https://apis.io/providers/vivenu/
+  crosswalk: crosswalk/vivenu.yml
+  concepts:
+  - event
+  - ticket

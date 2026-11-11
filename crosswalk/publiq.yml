@@ -1,0 +1,38 @@
+provider: publiq
+apis_io: https://apis.io/providers/publiq/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name: name
+      start_at: startDate
+      end_at: endDate
+      id:
+      - id
+      - '@id'
+      status: status
+      venue_id: location
+      created_at: created
+      description: description
+      updated_at: modified
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/publiq-uitdatabank-entry-openapi.yml#DELETE /events/{eventId}
+    - openapi/_original/publiq-uitdatabank-entry-openapi.yml#GET /events/{eventId}
+    - openapi/_original/publiq-uitdatabank-entry-openapi.yml#POST /events
+    - openapi/_original/publiq-uitdatabank-entry-openapi.yml#POST /imports/events
+    - openapi/_original/publiq-uitdatabank-entry-openapi.yml#PUT /events/{eventId}
+  ticket:
+    path_segment:
+    - passes
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/museumpassmusees-partner-api.json#GET /passes/{cardNumber}
+    - openapi/_original/publiq-museumpassmusees-partner-openapi.yml#GET /passes/{cardNumber}
+    - openapi/_original/publiq-uitpas-openapi.yml#GET /passes
+    - openapi/_original/publiq-uitpas-openapi.yml#GET /passes/{uitpasNumber}
+    - openapi/_original/uitpas-uitpas.json#GET /passes

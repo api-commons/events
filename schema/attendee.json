@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/events/main/schema/attendee.json",
+  "title": "Attendee",
+  "description": "The common attendee in Events and Ticketing, distilled from 11 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.727,
+      "x-commons-providers": 8,
+      "x-commons-spellings": [
+        "email",
+        "Email",
+        "email_address"
+      ],
+      "format": "email"
+    },
+    "first_name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.636,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "first_name",
+        "firstName",
+        "FirstName"
+      ]
+    },
+    "last_name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.636,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "last_name",
+        "lastName",
+        "LastName"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.636,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "name",
+        "DisplayName",
+        "Name",
+        "title",
+        "eventName"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.545,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "id",
+        "Id",
+        "AttendeeId",
+        "ExternalId"
+      ]
+    },
+    "checked_in": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.364,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "checkin_status",
+        "checkedIn",
+        "checkedInAt",
+        "checked_in"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.364,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "city",
+        "City"
+      ]
+    },
+    "event_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.364,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "event_id",
+        "EventId",
+        "eventId",
+        "event"
+      ]
+    },
+    "country": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.273,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "country",
+        "Country"
+      ]
+    },
+    "registration_status": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.273,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "registrationStatus",
+        "registration_status"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.273,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "status",
+        "Status"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "events",
+    "concept": "attendee",
+    "providers": 11,
+    "generated": "2026-11-10",
+    "version": "0.1.0-draft.20261110",
+    "status": "draft"
+  }
+}

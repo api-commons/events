@@ -1,0 +1,31 @@
+provider: sequel
+apis_io: https://apis.io/providers/sequel/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - event
+    - events
+    properties:
+      name: name
+      start_at: startDate
+      end_at: endDate
+      category: type
+      time_zone: timezone
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/sequel-openapi-original.yml#DELETE /customizations/events/event/{eventId}
+    - openapi/_original/sequel-openapi-original.yml#DELETE /event/{eventId}
+    - openapi/_original/sequel-openapi-original.yml#GET /company/{companyId}/events
+    - openapi/_original/sequel-openapi-original.yml#GET /customizations/events/event/{eventId}
+    - openapi/_original/sequel-openapi-original.yml#GET /event/{eventId}
+  attendee:
+    path_segment:
+    - registrants
+    properties:
+      email: email
+      name: name
+    core_coverage: 0.4
+    evidence:
+    - openapi/_original/sequel-openapi-original.yml#GET /event/{eventId}/registrants

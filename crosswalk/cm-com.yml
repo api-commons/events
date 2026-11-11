@@ -1,0 +1,88 @@
+provider: cm-com
+apis_io: https://apis.io/providers/cm-com/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name:
+      - name
+      - title
+      start_at:
+      - startAt
+      - start_at
+      end_at:
+      - endAt
+      - end_at
+      id:
+      - uuid
+      - externalId
+      - id
+      category: type
+      venue_id: venue
+      created_at: created_at
+      description: description
+      time_zone: timezone
+      event_type: eventType
+      updated_at: updated_at
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#DELETE /entrance/v1.0/organisations/{organisationUuid}/events/{eventUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/events
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/events/{eventUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/scan/{entrancePlanUuid}/events
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#PATCH /entrance/v1.0/organisations/{organisationUuid}/events/{eventUuid}
+  venue:
+    path_segment:
+    - venues
+    - venue
+    properties:
+      id:
+      - uuid
+      - externalId
+      name: name
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#DELETE /entrance/v1.0/organisations/{organisationUuid}/venues/{venueUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/analytics/venue/{venueUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/venues
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/venues/{venueUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/scan/{entrancePlanUuid}/analytics/venue/{venueUuid}
+  ticket_type:
+    path_segment:
+    - products
+    properties:
+      description: description
+      id:
+      - uuid
+      - externalId
+      - id
+      name: name
+      price: price
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/events/{eventUuid}/products
+    - openapi/_original/cm-com-live-entrance-management-v2-openapi.yml#GET /entrance/v2.0/organisations/{organisationUuid}/events/{eventUuid}/products
+    - openapi/_original/cm-com-live-event-ticketing-v1-openapi.yml#GET /events/{event_id}/orders/{order_id}/products
+    - openapi/_original/cm-com-live-event-ticketing-v1-openapi.yml#GET /events/{event_id}/orders/{order_id}/products/{customer_product_id}
+    - openapi/_original/cm-com-live-event-ticketing-v1-openapi.yml#GET /events/{event_id}/products
+  ticket:
+    path_segment:
+    - tickets
+    - ticket
+    properties:
+      id:
+      - uuid
+      - externalId
+      status: status
+      barcode: barcode
+      event_id: eventId
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#DELETE /entrance/v1.0/organisations/{organisationUuid}/tickets/{ticketUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/tickets
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/tickets/{ticketUuid}
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/scan/{entrancePlanUuid}/sync/tickets
+    - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/scan/{entrancePlanUuid}/tickets

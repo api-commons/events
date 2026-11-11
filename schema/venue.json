@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/events/main/schema/venue.json",
+  "title": "Venue",
+  "description": "The common venue in Events and Ticketing, distilled from 7 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.857,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "id",
+        "uuid",
+        "externalId"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.857,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "name"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.571,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "address",
+        "location"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.429,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "city"
+      ]
+    },
+    "postal_code": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.429,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "postal_code",
+        "postalCode"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "events",
+    "concept": "venue",
+    "providers": 7,
+    "generated": "2026-11-10",
+    "version": "0.1.0-draft.20261110",
+    "status": "draft"
+  }
+}

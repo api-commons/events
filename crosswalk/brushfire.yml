@@ -1,0 +1,52 @@
+provider: brushfire
+apis_io: https://apis.io/providers/brushfire/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties:
+      name: Title
+      start_at:
+      - Dates
+      - StartsAt
+      end_at: EndsAt
+      id: Id
+      status: IsPublished
+      venue_id: Location
+      created_at: CreatedAt
+      currency: Currency
+      event_type: EventType
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/brushfire-openapi.json#DELETE /cart/{cartId}/events/{eventId}
+    - openapi/_original/brushfire-openapi.json#DELETE /events/{eventId}
+    - openapi/_original/brushfire-openapi.json#GET /cart/{cartId}/events/{eventId}
+    - openapi/_original/brushfire-openapi.json#GET /events
+    - openapi/_original/brushfire-openapi.json#GET /events/{eventId}
+  attendee:
+    path_segment:
+    - attendees
+    properties:
+      email: Email
+      first_name: FirstName
+      last_name: LastName
+      name:
+      - DisplayName
+      - Name
+      id:
+      - Id
+      - AttendeeId
+      - ExternalId
+      city: City
+      event_id: EventId
+      country: Country
+      status: Status
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/brushfire-openapi.json#DELETE /cart/{cartId}/events/{eventId}/attendees/{attendeeId}
+    - openapi/_original/brushfire-openapi.json#GET /attendees/{attendeeId}
+    - openapi/_original/brushfire-openapi.json#GET /cart/{cartId}/events/{eventId}/attendees/{attendeeId}
+    - openapi/_original/brushfire-openapi.json#GET /lookups/{lookupId}/events/{eventNumber}/attendees
+    - openapi/_original/brushfire-openapi.json#GET /sessions/{sessionId}/attendees

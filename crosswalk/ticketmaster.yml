@@ -1,0 +1,37 @@
+provider: ticketmaster
+apis_io: https://apis.io/providers/ticketmaster/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    - attractions
+    properties:
+      name: name
+      start_at: dates
+      id: id
+      category:
+      - type
+      - classifications
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /attractions.json
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /attractions/{id}.json
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /events.json
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /events/{id}.json
+  venue:
+    path_segment:
+    - venues
+    properties:
+      id: id
+      name: name
+      address:
+      - address
+      - location
+      city: city
+      postal_code: postalCode
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /venues.json
+    - openapi/_original/ticketmaster-discovery-openapi.yml#GET /venues/{id}.json

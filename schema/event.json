@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/events/main/schema/event.json",
+  "title": "Event",
+  "description": "The common event in Events and Ticketing, distilled from 21 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.857,
+      "x-commons-providers": 18,
+      "x-commons-spellings": [
+        "name",
+        "title",
+        "Title"
+      ]
+    },
+    "start_at": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.762,
+      "x-commons-providers": 16,
+      "x-commons-spellings": [
+        "start_time",
+        "start_date",
+        "start",
+        "startDate",
+        "Dates",
+        "StartsAt",
+        "startAt",
+        "start_at"
+      ],
+      "format": "date-time"
+    },
+    "end_at": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.714,
+      "x-commons-providers": 15,
+      "x-commons-spellings": [
+        "end_time",
+        "end_date",
+        "end",
+        "endDate",
+        "EndsAt",
+        "endAt",
+        "end_at",
+        "endsAt"
+      ],
+      "format": "date-time"
+    },
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.714,
+      "x-commons-providers": 15,
+      "x-commons-spellings": [
+        "id",
+        "Id",
+        "uuid",
+        "externalId",
+        "@id",
+        "_id"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.524,
+      "x-commons-providers": 11,
+      "x-commons-spellings": [
+        "type",
+        "category",
+        "categories",
+        "classification",
+        "classifications"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.476,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "status",
+        "IsPublished",
+        "eventStatus",
+        "isPublished"
+      ]
+    },
+    "venue_id": {
+      "type": "object",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.429,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "venue",
+        "venue_id",
+        "location",
+        "Location",
+        "venues"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.381,
+      "x-commons-providers": 8,
+      "x-commons-spellings": [
+        "created",
+        "createdAt",
+        "CreatedAt",
+        "created_at",
+        "create_time",
+        "creation_date"
+      ],
+      "format": "date-time"
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.381,
+      "x-commons-providers": 8,
+      "x-commons-spellings": [
+        "description"
+      ]
+    },
+    "time_zone": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.333,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "timezone",
+        "time_zone"
+      ]
+    },
+    "currency": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.238,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "currency",
+        "Currency"
+      ]
+    },
+    "event_type": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.238,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "eventType",
+        "event_type",
+        "EventType"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.238,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "updatedAt",
+        "updated_at",
+        "lastModified",
+        "modified"
+      ],
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "events",
+    "concept": "event",
+    "providers": 21,
+    "generated": "2026-11-10",
+    "version": "0.1.0-draft.20261110",
+    "status": "draft"
+  }
+}

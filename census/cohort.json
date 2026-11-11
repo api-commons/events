@@ -1,0 +1,1133 @@
+[
+ {
+  "slug": "accelevents",
+  "specs": [
+   "openapi/_original/accelevents-openapi.yml"
+  ]
+ },
+ {
+  "slug": "airmeet",
+  "specs": [
+   "openapi/_original/airmeet-openapi.yml"
+  ]
+ },
+ {
+  "slug": "almabase",
+  "specs": [
+   "openapi/_original/almabase-developer-portal-api-list.json",
+   "openapi/_original/almabase-openapi.yml"
+  ]
+ },
+ {
+  "slug": "alto-vebra",
+  "specs": [
+   "openapi/_original/alto-api-openapi.json",
+   "openapi/_original/zoopla-leads-api-openapi.json",
+   "openapi/_original/zoopla-premium-listing-activations-openapi.json",
+   "openapi/_original/zoopla-weekly-featured-property-openapi.json"
+  ]
+ },
+ {
+  "slug": "amazon-eventbridge",
+  "specs": [
+   "openapi/_original/amazon-eventbridge-openapi.yml"
+  ]
+ },
+ {
+  "slug": "antavo",
+  "specs": [
+   "openapi/_original/antavo-async-events-openapi.yml",
+   "openapi/_original/antavo-authentication-openapi.yml",
+   "openapi/_original/antavo-bulk-operations-openapi.yml",
+   "openapi/_original/antavo-clubs-openapi.yml",
+   "openapi/_original/antavo-coupon-pools-openapi.yml",
+   "openapi/_original/antavo-coupons-openapi.yml",
+   "openapi/_original/antavo-customer-openapi.yml",
+   "openapi/_original/antavo-display-openapi.yml",
+   "openapi/_original/antavo-entities-openapi.yml",
+   "openapi/_original/antavo-events-openapi.yml",
+   "openapi/_original/antavo-faq-openapi.yml",
+   "openapi/_original/antavo-leaderboard-openapi.yml",
+   "openapi/_original/antavo-loyalty-read-openapi.yml",
+   "openapi/_original/antavo-offers-openapi.yml",
+   "openapi/_original/antavo-points-preview-openapi.yml",
+   "openapi/_original/antavo-promotion-engine-openapi.yml",
+   "openapi/_original/antavo-rewards-openapi.yml",
+   "openapi/_original/antavo-social-share-campaigns-openapi.yml"
+  ]
+ },
+ {
+  "slug": "apiaddicts",
+  "specs": [
+   "openapi/_original/apiaddicts-apigen-openapi.yml",
+   "openapi/_original/apiaddicts-openapi2soapui-openapi.yml",
+   "openapi/_original/apigen-springboot-api.yaml",
+   "openapi/_original/openapi2soapui-api.yaml"
+  ]
+ },
+ {
+  "slug": "arctic-wolf",
+  "specs": [
+   "openapi/_original/arctic-wolf-ticket-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "bandsintown",
+  "specs": [
+   "openapi/_original/bandsintown-public-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "banzai",
+  "specs": [
+   "openapi/_original/banzai-demio-openapi.yml"
+  ]
+ },
+ {
+  "slug": "breeze-chms",
+  "specs": [
+   "openapi/_original/breeze-chms-openapi.yml"
+  ]
+ },
+ {
+  "slug": "brella",
+  "specs": [
+   "openapi/_original/brella-openapi.yml"
+  ]
+ },
+ {
+  "slug": "brevo",
+  "specs": [
+   "openapi/_original/brevo-accounts-and-settings-openapi.yml",
+   "openapi/_original/brevo-contact-management-openapi.yml",
+   "openapi/_original/brevo-contacts-openapi.yml",
+   "openapi/_original/brevo-conversations-openapi.yml",
+   "openapi/_original/brevo-conversations-openapi_2.yml",
+   "openapi/_original/brevo-ecommerce-openapi.yml",
+   "openapi/_original/brevo-ecommerce-openapi_2.yml",
+   "openapi/_original/brevo-email-api-openapi.yml",
+   "openapi/_original/brevo-email-campaigns-openapi.yml",
+   "openapi/_original/brevo-events-openapi.yml",
+   "openapi/_original/brevo-loyalty-openapi.yml",
+   "openapi/_original/brevo-marketing-campaigns-openapi.yml",
+   "openapi/_original/brevo-object-management-openapi.yml",
+   "openapi/_original/brevo-sales-crm-openapi.yml",
+   "openapi/_original/brevo-transactional-email-openapi.yml",
+   "openapi/_original/brevo-transactional-sms-openapi.yml",
+   "openapi/_original/brevo-transactional-sms-openapi_2.yml",
+   "openapi/_original/brevo-transactional-whatsapp-openapi.yml",
+   "openapi/_original/brevo-wallet-openapi.yml",
+   "openapi/_original/brevo-webhooks-openapi.yml",
+   "openapi/_original/brevo-whatsapp-openapi.yml"
+  ]
+ },
+ {
+  "slug": "brushfire",
+  "specs": [
+   "openapi/_original/brushfire-openapi.json"
+  ]
+ },
+ {
+  "slug": "cachet",
+  "specs": [
+   "openapi/_original/cachet-parking-openapi.yml",
+   "openapi/_original/cachet-partners-openapi.yml",
+   "openapi/_original/cachet-verify-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cdk-global",
+  "specs": [
+   "openapi/_original/fortellis-appointments-openapi.yml",
+   "openapi/_original/fortellis-event-relay-webhook-openapi.yml",
+   "openapi/_original/fortellis-parts-store-openapi.yml",
+   "openapi/_original/fortellis-pet-adoption-openapi.yml",
+   "openapi/_original/fortellis-user-service-openapi.yml"
+  ]
+ },
+ {
+  "slug": "charter-communications",
+  "specs": [
+   "openapi/_original/charter-communications-bryte-iq-api-openapi.yml",
+   "openapi/_original/charter-communications-spectrum-enterprise-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "checkiday-national-holiday-api",
+  "specs": [
+   "openapi/_original/checkiday-openapi.yml"
+  ]
+ },
+ {
+  "slug": "circle-community",
+  "specs": [
+   "openapi/_original/circle-community-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cloudevents",
+  "specs": [
+   "openapi/_original/cloudevents-subscriptions-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cm-com",
+  "specs": [
+   "openapi/_original/cm-com-conversational-ai-v1-openapi.yml",
+   "openapi/_original/cm-com-conversational-router-v1-openapi.yml",
+   "openapi/_original/cm-com-conversational-router-v2-openapi.yml",
+   "openapi/_original/cm-com-customer-engagement-v1-openapi.yml",
+   "openapi/_original/cm-com-email-gateway-api-v1-openapi.yml",
+   "openapi/_original/cm-com-halo-analytics-v1-openapi.yml",
+   "openapi/_original/cm-com-halo-core-v1-openapi.yml",
+   "openapi/_original/cm-com-live-entrance-management-v1-openapi.yml",
+   "openapi/_original/cm-com-live-entrance-management-v2-openapi.yml",
+   "openapi/_original/cm-com-live-event-apps-v1-openapi.yml",
+   "openapi/_original/cm-com-live-event-ticketing-v1-openapi.yml",
+   "openapi/_original/cm-com-live-ga-partner-v1-openapi.yml",
+   "openapi/_original/cm-com-live-museum-park-reseller-v1-openapi.yml",
+   "openapi/_original/cm-com-live-museum-park-scan-v1-openapi.yml",
+   "openapi/_original/cm-com-live-tables-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-cdp-integration-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-cms-integrations-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-crm-integrations-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-internal-comms-integrations-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-live-chat-integrations-v1-openapi.yml",
+   "openapi/_original/cm-com-marketplace-product-feed-integrations-v1-openapi.yml",
+   "openapi/_original/cm-com-messaging-business-messaging-v1-openapi.yml",
+   "openapi/_original/cm-com-messaging-channels-api-v1-2-openapi.yml",
+   "openapi/_original/cm-com-mobile-marketing-cloud-cdp-events-v1-openapi.yml",
+   "openapi/_original/cm-com-mobile-marketing-cloud-cdp-profiles-v1-openapi.yml",
+   "openapi/_original/cm-com-mobile-marketing-cloud-email-campaigns-v1-openapi.yml",
+   "openapi/_original/cm-com-mobile-marketing-cloud-email-validation-v1-openapi.yml",
+   "openapi/_original/cm-com-mobile-marketing-cloud-mmc-campaigns-v1-openapi.yml",
+   "openapi/_original/cm-com-payments-online-payments-v1-27-22-openapi.yml",
+   "openapi/_original/cm-com-payments-pos-cloud-api-v1-9-0-openapi.yml",
+   "openapi/_original/cm-com-sign-seal-v1-openapi.yml",
+   "openapi/_original/cm-com-sign-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-iban-verification-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-id-scan-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-identity-hub-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-idin-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-mobile-identity-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-number-validation-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-otp-v1-openapi.yml",
+   "openapi/_original/cm-com-verification-otp-v2-openapi.yml",
+   "openapi/_original/cm-com-voice-audio-manager-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-cdr-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-company-profiles-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-distribution-groups-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-documents-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-number-requests-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-phone-numbers-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-sip-accounts-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-sip-thresholds-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-tts-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-voice-accounts-v1-openapi.yml",
+   "openapi/_original/cm-com-voice-voice-api-v2-openapi.yml",
+   "openapi/_original/cm-com-voice-voice-insights-v1-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cobot",
+  "specs": [
+   "openapi/_original/cobot-api2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "codehooks",
+  "specs": [
+   "openapi/_original/codehooks-database-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "constant-contact",
+  "specs": [
+   "openapi/_original/constant-contact-v3-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cox-automotive",
+  "specs": [
+   "openapi/_original/cox-automotive-kbb-advertising-data-openapi.yaml",
+   "openapi/_original/cox-automotive-kbb-advertising-data-openapi.yml",
+   "openapi/_original/cox-automotive-kbb-batch-vin-openapi.yaml",
+   "openapi/_original/cox-automotive-kbb-batch-vin-openapi.yml",
+   "openapi/_original/cox-automotive-kbb-idws-editorial-openapi.json",
+   "openapi/_original/cox-automotive-kbb-idws-editorial-openapi.yml",
+   "openapi/_original/cox-automotive-kbb-idws-vehicle-openapi.json",
+   "openapi/_original/cox-automotive-kbb-idws-vehicle-openapi.yml",
+   "openapi/_original/cox-automotive-kbb-instant-cash-offer-openapi.yaml",
+   "openapi/_original/cox-automotive-kbb-instant-cash-offer-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cvent",
+  "specs": [
+   "openapi/_original/cvent-openapi.json",
+   "openapi/_original/cvent-public-spec-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "cvent-event-cloud",
+  "specs": [
+   "openapi/_original/cvent-event-cloud-rest-openapi.yml",
+   "openapi/_original/cvent-rest-apis-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "cvent-hospitality-cloud",
+  "specs": [
+   "openapi/_original/cvent-hospitality-cloud-authentication-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-event-travel-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-housing-hotels-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-housing-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-meeting-requests-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-proposal-drafts-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-rest-apis-openapi.json",
+   "openapi/_original/cvent-hospitality-cloud-rfp-additional-details-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-rfp-management-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-rfp-requirements-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-rfp-suppliers-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-signatures-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-travel-accounts-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-travel-rfps-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-travel-suppliers-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-venue-meeting-rooms-openapi.yml",
+   "openapi/_original/cvent-hospitality-cloud-venue-profiles-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cvent-platform",
+  "specs": [
+   "openapi/_original/cvent-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cvent-registration",
+  "specs": [
+   "openapi/_original/cvent-registration-openapi.yml",
+   "openapi/_original/cvent-rest-apis-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "cvent-social-tables",
+  "specs": [
+   "openapi/_original/cvent-social-tables-openapi.json"
+  ]
+ },
+ {
+  "slug": "demio",
+  "specs": [
+   "openapi/_original/demio-openapi.yml"
+  ]
+ },
+ {
+  "slug": "donorbox",
+  "specs": [
+   "openapi/_original/donorbox-openapi.json"
+  ]
+ },
+ {
+  "slug": "dotdigital",
+  "specs": [
+   "openapi/_original/Dotdigital-dotdigital-campaign-templates-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-contact-data-fields-2.0.0-resolved-1.yaml",
+   "openapi/_original/Dotdigital-dotdigital-documents-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-email-contacts-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-insight-and-transactional-data-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-lists-address-books-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-pages-and-forms-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-dotdigital-preferences-and-subscriptions-2.0.0-resolved.yaml",
+   "openapi/_original/Dotdigital-whatsapp-channel-api-1.0.0-resolved-1.yaml",
+   "openapi/_original/accounts-and-utilities.yaml",
+   "openapi/_original/analytics-api.json",
+   "openapi/_original/chat-api.json",
+   "openapi/_original/chat-config-api.json",
+   "openapi/_original/chat-message-api.json",
+   "openapi/_original/chat-presence-api.json",
+   "openapi/_original/content-api.json",
+   "openapi/_original/conversation-api.json",
+   "openapi/_original/conversation-message-api.json",
+   "openapi/_original/cpaas-api.json",
+   "openapi/_original/data-firehose.json",
+   "openapi/_original/dotdigital-accounts-and-utilities-openapi.yml",
+   "openapi/_original/dotdigital-analytics-openapi.yml",
+   "openapi/_original/dotdigital-campaign-templates-openapi.yml",
+   "openapi/_original/dotdigital-chat-config-openapi.yml",
+   "openapi/_original/dotdigital-chat-message-openapi.yml",
+   "openapi/_original/dotdigital-chat-openapi.yml",
+   "openapi/_original/dotdigital-chat-presence-openapi.yml",
+   "openapi/_original/dotdigital-configuration-service-openapi.yml",
+   "openapi/_original/dotdigital-configuration-service.json",
+   "openapi/_original/dotdigital-contact-data-fields-openapi.yml",
+   "openapi/_original/dotdigital-contacts-openapi.yml",
+   "openapi/_original/dotdigital-contacts-service.json",
+   "openapi/_original/dotdigital-content-openapi.yml",
+   "openapi/_original/dotdigital-conversation-message-openapi.yml",
+   "openapi/_original/dotdigital-conversation-openapi.yml",
+   "openapi/_original/dotdigital-cpaas-openapi.yml",
+   "openapi/_original/dotdigital-data-firehose-openapi.yml",
+   "openapi/_original/dotdigital-documents-openapi.yml",
+   "openapi/_original/dotdigital-ecommerce-openapi.yml",
+   "openapi/_original/dotdigital-email-campaigns-openapi.yml",
+   "openapi/_original/dotdigital-email-contacts-openapi.yml",
+   "openapi/_original/dotdigital-events-openapi.yml",
+   "openapi/_original/dotdigital-images-openapi.yml",
+   "openapi/_original/dotdigital-insight-and-transactional-data-openapi.yml",
+   "openapi/_original/dotdigital-insight-data-service-openapi.yml",
+   "openapi/_original/dotdigital-insight-data-service.json",
+   "openapi/_original/dotdigital-lists-address-books-openapi.yml",
+   "openapi/_original/dotdigital-marketing-email-openapi.yml",
+   "openapi/_original/dotdigital-message-history-openapi.yml",
+   "openapi/_original/dotdigital-message-rules-openapi.yml",
+   "openapi/_original/dotdigital-omnichannel-openapi.yml",
+   "openapi/_original/dotdigital-pages-and-forms-openapi.yml",
+   "openapi/_original/dotdigital-phone-number-validation-openapi.yml",
+   "openapi/_original/dotdigital-preferences-and-subscriptions-openapi.yml",
+   "openapi/_original/dotdigital-product-recommendations-openapi.yml",
+   "openapi/_original/dotdigital-profile-openapi.yml",
+   "openapi/_original/dotdigital-programs-openapi.yml",
+   "openapi/_original/dotdigital-scoring-openapi.yml",
+   "openapi/_original/dotdigital-segments-openapi.yml",
+   "openapi/_original/dotdigital-session-openapi.yml",
+   "openapi/_original/dotdigital-sms-campaigns-openapi.yml",
+   "openapi/_original/dotdigital-templates-openapi.yml",
+   "openapi/_original/dotdigital-transactional-email-openapi.yml",
+   "openapi/_original/dotdigital-v2-api-full-openapi.yml",
+   "openapi/_original/dotdigital-v2-api-swagger.json",
+   "openapi/_original/dotdigital-webhook-openapi.yml",
+   "openapi/_original/dotdigital-whatsapp-channel-openapi.yml",
+   "openapi/_original/ecommerce.yaml",
+   "openapi/_original/email-campaigns.yaml",
+   "openapi/_original/events.json",
+   "openapi/_original/images.yaml",
+   "openapi/_original/marketing-email-api.json",
+   "openapi/_original/message-history-api.json",
+   "openapi/_original/message-rules-api.json",
+   "openapi/_original/omnichannel-api.json",
+   "openapi/_original/phone-number-validation-api.json",
+   "openapi/_original/product-recommendations.yaml",
+   "openapi/_original/profile-api.json",
+   "openapi/_original/programs.yaml",
+   "openapi/_original/scoring.yaml",
+   "openapi/_original/segments.yaml",
+   "openapi/_original/session-api.json",
+   "openapi/_original/sms-campaigns.yaml",
+   "openapi/_original/templates-api.json",
+   "openapi/_original/transactional-email.yaml",
+   "openapi/_original/webhook-api.json"
+  ]
+ },
+ {
+  "slug": "elisa",
+  "specs": [
+   "openapi/_original/elisa-events-calendar-openapi.json"
+  ]
+ },
+ {
+  "slug": "employ-inc",
+  "specs": [
+   "openapi/_original/employ-inc-events-calendar-rest-api-openapi.json",
+   "openapi/_original/employ-inc-tec-events-rest-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "entergram",
+  "specs": [
+   "openapi/_original/entergram-openapi.json"
+  ]
+ },
+ {
+  "slug": "epfl",
+  "specs": [
+   "openapi/_original/epfl-actu.yaml",
+   "openapi/_original/epfl-getprime-api-openapi.yml",
+   "openapi/_original/epfl-memento.yaml"
+  ]
+ },
+ {
+  "slug": "eventbrite",
+  "specs": [
+   "openapi/_original/eventbrite-openapi.yml"
+  ]
+ },
+ {
+  "slug": "eventscom",
+  "specs": [
+   "openapi/_original/eventscom-datagol-ai-openapi.json",
+   "openapi/_original/eventscom-datagol-ai-openapi.yml",
+   "openapi/_original/eventscom-datagol-platform-openapi.json",
+   "openapi/_original/eventscom-datagol-platform-openapi.yml",
+   "openapi/_original/eventscom-datagol-python-agent-openapi.json",
+   "openapi/_original/eventscom-datagol-python-agent-openapi.yml"
+  ]
+ },
+ {
+  "slug": "eventwren",
+  "specs": [
+   "openapi/_original/eventwren-openapi-original.yml",
+   "openapi/_original/eventwren-openapi.yml",
+   "openapi/_original/eventwren-openapi_2.yml",
+   "openapi/_original/eventwren-openapi_3.yml"
+  ]
+ },
+ {
+  "slug": "eventxtra",
+  "specs": [
+   "openapi/_original/eventxtra-public-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "eventzilla",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "fathom",
+  "specs": [
+   "openapi/_original/fathom-openapi.json"
+  ]
+ },
+ {
+  "slug": "fever",
+  "specs": [
+   "openapi/_original/fever-reporting-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "findlocal",
+  "specs": [
+   "openapi/_original/findlocal-openapi-full.json"
+  ]
+ },
+ {
+  "slug": "freshdesk",
+  "specs": [
+   "openapi/_original/freshdesk-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "freshservice",
+  "specs": [
+   "openapi/_original/freshservice-openapi.yml"
+  ]
+ },
+ {
+  "slug": "givebutter",
+  "specs": [
+   "openapi/_original/givebutter-docs-api.json"
+  ]
+ },
+ {
+  "slug": "gleap",
+  "specs": [
+   "openapi/_original/gleap-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "goatcounter",
+  "specs": [
+   "openapi/_original/goatcounter-api-swagger20.json",
+   "openapi/_original/goatcounter-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gofundme",
+  "specs": [
+   "openapi/_original/gofundme-pro-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "google-calendar",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-cloud-eventarc",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-wallet",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "gorgias",
+  "specs": [
+   "openapi/_original/gorgias-openapi.yml"
+  ]
+ },
+ {
+  "slug": "goto-webinar",
+  "specs": [
+   "openapi/_original/goto-webinar-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gotowebinar",
+  "specs": [
+   "openapi/_original/gotowebinar-openapi.yml",
+   "openapi/_original/gotowebinar-rest-openapi.yml",
+   "openapi/_original/gotowebinar-webhooks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "groundwork-open-source",
+  "specs": [
+   "openapi/_original/groundwork-open-source-tcg-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "harmony",
+  "specs": [
+   "openapi/_original/harmony-service-desk-openapi.json"
+  ]
+ },
+ {
+  "slug": "helika",
+  "specs": [
+   "openapi/_original/helika-events-openapi.json"
+  ]
+ },
+ {
+  "slug": "hiver",
+  "specs": [
+   "openapi/_original/hiver-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "honeycomb-io",
+  "specs": [
+   "openapi/_original/honeycomb-auth-api-openapi.yml",
+   "openapi/_original/honeycomb-boards-api-openapi.yml",
+   "openapi/_original/honeycomb-columns-api-openapi.yml",
+   "openapi/_original/honeycomb-datasets-api-openapi.yml",
+   "openapi/_original/honeycomb-environments-api-openapi.yml",
+   "openapi/_original/honeycomb-events-api-openapi.yml",
+   "openapi/_original/honeycomb-io-openapi-public-2026-08-24.yaml",
+   "openapi/_original/honeycomb-key-management-api-openapi.yml",
+   "openapi/_original/honeycomb-markers-api-openapi.yml",
+   "openapi/_original/honeycomb-queries-api-openapi.yml",
+   "openapi/_original/honeycomb-service-maps-api-openapi.yml",
+   "openapi/_original/honeycomb-slos-api-openapi.yml",
+   "openapi/_original/honeycomb-triggers-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hookdeck",
+  "specs": [
+   "openapi/_original/hookdeck-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hopin",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "howler",
+  "specs": [
+   "openapi/_original/howler-consumer-portal-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hpsf",
+  "specs": [
+   "openapi/_original/hpsf-tec-v1-openapi.json",
+   "openapi/_original/hpsf-tribe-events-v1-openapi.json"
+  ]
+ },
+ {
+  "slug": "impossible-metals",
+  "specs": [
+   "openapi/_original/impossible-metals-events-openapi.yml",
+   "openapi/_original/impossible-metals-events-tec-openapi.yml",
+   "openapi/_original/impossible-metals-tec-v1-openapi.json",
+   "openapi/_original/impossible-metals-tribe-events-v1-openapi.json",
+   "openapi/_original/impossible-metals-wp-json-route-index.json"
+  ]
+ },
+ {
+  "slug": "jambase",
+  "specs": [
+   "openapi/_original/jambase-openapi.json"
+  ]
+ },
+ {
+  "slug": "kaseya",
+  "specs": [
+   "openapi/_original/kaseya-autotask-psa-openapi-original.json",
+   "openapi/_original/kaseya-bms-openapi-original.json",
+   "openapi/_original/kaseya-datto-rmm-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "keyper",
+  "specs": [
+   "openapi/_original/keyper-access-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lightstream",
+  "specs": [
+   "openapi/_original/lightstream-event-openapi-original.yml",
+   "openapi/_original/lightstream-layout-openapi-original.yml",
+   "openapi/_original/lightstream-live-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "looksrare",
+  "specs": [
+   "openapi/_original/looksrare-openapi.json"
+  ]
+ },
+ {
+  "slug": "loops-so",
+  "specs": [
+   "openapi/_original/loops-openapi.yml"
+  ]
+ },
+ {
+  "slug": "luma",
+  "specs": [
+   "openapi/_original/luma-openapi.json"
+  ]
+ },
+ {
+  "slug": "marvel",
+  "specs": [
+   "openapi/_original/marvel-openapi.yml"
+  ]
+ },
+ {
+  "slug": "memberclicks",
+  "specs": [
+   "openapi/_original/memberclicks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mighty-networks",
+  "specs": [
+   "openapi/_original/mighty-networks-admin-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "mobly",
+  "specs": [
+   "openapi/_original/mobly-rest-api-v0-openapi-original.yml",
+   "openapi/_original/mobly-rest-api-v0-openapi.yml"
+  ]
+ },
+ {
+  "slug": "nationbuilder",
+  "specs": [
+   "openapi/_original/nationbuilder-v2-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "neonone",
+  "specs": [
+   "openapi/_original/neonone-openapi.yml"
+  ]
+ },
+ {
+  "slug": "neuehouse",
+  "specs": [
+   "openapi/_original/neuehouse-wp-json-index.json"
+  ]
+ },
+ {
+  "slug": "ninjaone",
+  "specs": [
+   "openapi/_original/ninjaone-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "on24",
+  "specs": [
+   "openapi/_original/on24-client-level-analytics-openapi.yml",
+   "openapi/_original/on24-content-listings-openapi.yml",
+   "openapi/_original/on24-event-level-analytics-openapi.yml",
+   "openapi/_original/on24-event-management-openapi.yml",
+   "openapi/_original/on24-helpers-openapi.yml",
+   "openapi/_original/on24-openapi.json",
+   "openapi/_original/on24-rest-registration-openapi.yml"
+  ]
+ },
+ {
+  "slug": "parkwhiz",
+  "specs": [
+   "openapi/_original/parkwhiz-openapi.yml"
+  ]
+ },
+ {
+  "slug": "pavoot",
+  "specs": [
+   "openapi/_original/pavoot-api-openapi.json",
+   "openapi/_original/pavoot-openapi.json"
+  ]
+ },
+ {
+  "slug": "piknik-spot",
+  "specs": [
+   "openapi/_original/piknik-spot-api-openapi.yaml",
+   "openapi/_original/piknik-spot-openapi.json",
+   "openapi/_original/piknik-spot-openapi.yml"
+  ]
+ },
+ {
+  "slug": "pirsch",
+  "specs": [
+   "openapi/_original/pirsch-pirsch-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "planning-center",
+  "specs": [
+   "openapi/_original/planning-center-openapi.yml"
+  ]
+ },
+ {
+  "slug": "publiq",
+  "specs": [
+   "openapi/_original/museumpassmusees-partner-api.json",
+   "openapi/_original/publiq-museumpassmusees-partner-openapi.yml",
+   "openapi/_original/publiq-uitdatabank-entry-openapi.yml",
+   "openapi/_original/publiq-uitdatabank-search-openapi.yml",
+   "openapi/_original/publiq-uitdatabank-taxonomy-openapi.yml",
+   "openapi/_original/publiq-uitpas-openapi.yml",
+   "openapi/_original/uitdatabank-entry.json",
+   "openapi/_original/uitdatabank-search.json",
+   "openapi/_original/uitdatabank-taxonomy.json",
+   "openapi/_original/uitpas-uitpas.json"
+  ]
+ },
+ {
+  "slug": "pylon",
+  "specs": [
+   "openapi/_original/pylon-openapi.yml"
+  ]
+ },
+ {
+  "slug": "quaker-houghton",
+  "specs": [
+   "openapi/_original/quaker-houghton-tec-v1-openapi-original.json",
+   "openapi/_original/quaker-houghton-tribe-events-v1-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "race-entry",
+  "specs": [
+   "openapi/_original/race-entry-openapi.yml"
+  ]
+ },
+ {
+  "slug": "regal-entertainment-group",
+  "specs": [
+   "openapi/_original/regal-cinema-openapi.yml"
+  ]
+ },
+ {
+  "slug": "runsignup",
+  "specs": [
+   "openapi/_original/runsignup-openapi.yml"
+  ]
+ },
+ {
+  "slug": "salesforce-service-cloud",
+  "specs": [
+   "openapi/_original/salesforce-live-agent-openapi.yml",
+   "openapi/_original/salesforce-service-cloud-rest-openapi.yml"
+  ]
+ },
+ {
+  "slug": "seatgeek",
+  "specs": [
+   "openapi/_original/seatgeek-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sequel",
+  "specs": [
+   "openapi/_original/sequel-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "setlist-fm",
+  "specs": [
+   "openapi/_original/setlist-fm-openapi.json",
+   "openapi/_original/setlist-fm-openapi.yml"
+  ]
+ },
+ {
+  "slug": "simpleanalytics",
+  "specs": [
+   "openapi/_original/simpleanalytics-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sobot",
+  "specs": [
+   "openapi/_original/sobot-basic-openapi.json",
+   "openapi/_original/sobot-main-openapi.json",
+   "openapi/_original/sobot-online-openapi.json",
+   "openapi/_original/sobot-voice-openapi.json"
+  ]
+ },
+ {
+  "slug": "sportsdb",
+  "specs": [
+   "openapi/_original/sportsdb-openapi.yml",
+   "openapi/_original/thesportsdb-lists-api-openapi.yml",
+   "openapi/_original/thesportsdb-seasons-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spredfast",
+  "specs": [
+   "openapi/_original/spredfast-analytics-api-openapi.json",
+   "openapi/_original/spredfast-analytics-api-openapi.yml",
+   "openapi/_original/spredfast-conversations-api-openapi.json",
+   "openapi/_original/spredfast-conversations-api-v1-openapi.json",
+   "openapi/_original/spredfast-conversations-api-v1-openapi.yml",
+   "openapi/_original/spredfast-crm-api-openapi.json",
+   "openapi/_original/spredfast-crm-api-openapi.yml",
+   "openapi/_original/spredfast-custom-crm-callback-api-openapi.json",
+   "openapi/_original/spredfast-custom-crm-callback-api-openapi.yml",
+   "openapi/_original/spredfast-experiences-stream-api-openapi.json",
+   "openapi/_original/spredfast-experiences-stream-api-openapi.yml",
+   "openapi/_original/spredfast-introspection-api-openapi.json",
+   "openapi/_original/spredfast-introspection-api-openapi.yml",
+   "openapi/_original/spredfast-labelsets-api-openapi.json",
+   "openapi/_original/spredfast-labelsets-api-openapi.yml",
+   "openapi/_original/spredfast-notification-api-openapi.json",
+   "openapi/_original/spredfast-notification-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "supaglue",
+  "specs": [
+   "openapi/_original/supaglue-actions-api-openapi.yml",
+   "openapi/_original/supaglue-crm-api-openapi.yml",
+   "openapi/_original/supaglue-data-api-openapi.yml",
+   "openapi/_original/supaglue-engagement-api-openapi.yml",
+   "openapi/_original/supaglue-enrichment-api-openapi.yml",
+   "openapi/_original/supaglue-management-api-openapi.yml",
+   "openapi/_original/supaglue-marketing-automation-api-openapi.yml",
+   "openapi/_original/supaglue-metadata-api-openapi.yml",
+   "openapi/_original/supaglue-ticketing-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "swoogo",
+  "specs": [
+   "openapi/_original/swoogo-openapi.yml"
+  ]
+ },
+ {
+  "slug": "swsh",
+  "specs": [
+   "openapi/_original/swsh-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sysaid",
+  "specs": [
+   "openapi/_original/sysaid-openapi.yml"
+  ]
+ },
+ {
+  "slug": "thesportsdb",
+  "specs": [
+   "openapi/_original/thesportsdb-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ticketmaster",
+  "specs": [
+   "openapi/_original/ticketmaster-commerce-openapi.yml",
+   "openapi/_original/ticketmaster-discovery-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ticketspice",
+  "specs": [
+   "openapi/_original/ticketspice-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tickettailor",
+  "specs": [
+   "openapi/_original/tickettailor-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tickitto",
+  "specs": [
+   "openapi/_original/tickitto-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "tictactrip",
+  "specs": [
+   "openapi/_original/tictactrip-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "tidio",
+  "specs": [
+   "openapi/_original/tidio-openapi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tripleseat",
+  "specs": [
+   "openapi/_original/tripleseat-openapi.yml"
+  ]
+ },
+ {
+  "slug": "uncle-nearest",
+  "specs": [
+   "openapi/_original/uncle-nearest-events-calendar-v1-openapi.json",
+   "openapi/_original/uncle-nearest-tec-v1-openapi.json"
+  ]
+ },
+ {
+  "slug": "unlock-protocol",
+  "specs": [
+   "openapi/_original/unlock-protocol-locksmith-openapi.yml"
+  ]
+ },
+ {
+  "slug": "viagogo",
+  "specs": [
+   "openapi/_original/viagogo-account.json",
+   "openapi/_original/viagogo-catalog.json",
+   "openapi/_original/viagogo-inventory.json",
+   "openapi/_original/viagogo-sales.json",
+   "openapi/_original/viagogo-webhooks.json"
+  ]
+ },
+ {
+  "slug": "vivenu",
+  "specs": [
+   "openapi/_original/vivenu-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "zaius",
+  "specs": [
+   "openapi/_original/zaius-advanced-openapi.json",
+   "openapi/_original/zaius-consent-openapi.json",
+   "openapi/_original/zaius-customers-openapi.json",
+   "openapi/_original/zaius-events-openapi.json",
+   "openapi/_original/zaius-exports-openapi.json",
+   "openapi/_original/zaius-lists-openapi.json",
+   "openapi/_original/zaius-objects-openapi.json",
+   "openapi/_original/zaius-orders-openapi.json",
+   "openapi/_original/zaius-products-openapi.json",
+   "openapi/_original/zaius-realtimesegments-openapi.json",
+   "openapi/_original/zaius-recommendations-openapi.json"
+  ]
+ },
+ {
+  "slug": "zayo",
+  "specs": [
+   "openapi/_original/zayo-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "zendesk",
+  "specs": [
+   "openapi/_original/account-openapi-original.yml",
+   "openapi/_original/accounts-openapi-original.yml",
+   "openapi/_original/activities-openapi-original.yml",
+   "openapi/_original/any-channel-openapi-original.yml",
+   "openapi/_original/approval-workflow-instances-openapi-original.yml",
+   "openapi/_original/assignables-openapi-original.yml",
+   "openapi/_original/attachments-openapi-original.yml",
+   "openapi/_original/audit-logs-openapi-original.yml",
+   "openapi/_original/autocomplete-openapi-original.yml",
+   "openapi/_original/automations-openapi-original.yml",
+   "openapi/_original/bookmarks-openapi-original.yml",
+   "openapi/_original/brand-agents-openapi-original.yml",
+   "openapi/_original/brands-openapi-original.yml",
+   "openapi/_original/channels-openapi-original.yml",
+   "openapi/_original/chat-file-redactions-openapi-original.yml",
+   "openapi/_original/chat-redactions-openapi-original.yml",
+   "openapi/_original/comment-redactions-openapi-original.yml",
+   "openapi/_original/custom-objects-openapi-original.yml",
+   "openapi/_original/custom-roles-openapi-original.yml",
+   "openapi/_original/custom-status-openapi-original.yml",
+   "openapi/_original/custom-statuses-openapi-original.yml",
+   "openapi/_original/deleted-tickets-openapi-original.yml",
+   "openapi/_original/deleted-users-openapi-original.yml",
+   "openapi/_original/deletion-schedules-openapi-original.yml",
+   "openapi/_original/dynamic-content-openapi-original.yml",
+   "openapi/_original/email-notifications-openapi-original.yml",
+   "openapi/_original/group-memberships-openapi-original.yml",
+   "openapi/_original/group-slas-openapi-original.yml",
+   "openapi/_original/groups-openapi-original.yml",
+   "openapi/_original/imports-openapi-original.yml",
+   "openapi/_original/incremental-openapi-original.yml",
+   "openapi/_original/job-statuses-openapi-original.yml",
+   "openapi/_original/locales-openapi-original.yml",
+   "openapi/_original/macros-openapi-original.yml",
+   "openapi/_original/oauth-openapi-original.yml",
+   "openapi/_original/object-layouts-openapi-original.yml",
+   "openapi/_original/organization-fields-openapi-original.yml",
+   "openapi/_original/organization-memberships-openapi-original.yml",
+   "openapi/_original/organization-merges-openapi-original.yml",
+   "openapi/_original/organization-subscriptions-openapi-original.yml",
+   "openapi/_original/organizations-openapi-original.yml",
+   "openapi/_original/problems-openapi-original.yml",
+   "openapi/_original/push-notification-devices-openapi-original.yml",
+   "openapi/_original/queues-openapi-original.yml",
+   "openapi/_original/recipient-addresses-openapi-original.yml",
+   "openapi/_original/relationships-openapi-original.yml",
+   "openapi/_original/requests-openapi-original.yml",
+   "openapi/_original/resource-collections-openapi-original.yml",
+   "openapi/_original/routing-openapi-original.yml",
+   "openapi/_original/satisfaction-ratings-openapi-original.yml",
+   "openapi/_original/satisfaction-reasons-openapi-original.yml",
+   "openapi/_original/search-openapi-original.yml",
+   "openapi/_original/sessions-openapi-original.yml",
+   "openapi/_original/sharing-agreements-openapi-original.yml",
+   "openapi/_original/skips-openapi-original.yml",
+   "openapi/_original/slas-openapi-original.yml",
+   "openapi/_original/suspended-tickets-openapi-original.yml",
+   "openapi/_original/tags-openapi-original.yml",
+   "openapi/_original/target-failures-openapi-original.yml",
+   "openapi/_original/target-type-openapi-original.yml",
+   "openapi/_original/targets-openapi-original.yml",
+   "openapi/_original/ticket-audits-openapi-original.yml",
+   "openapi/_original/ticket-content-pins-openapi-original.yml",
+   "openapi/_original/ticket-fields-openapi-original.yml",
+   "openapi/_original/ticket-form-statuses-openapi-original.yml",
+   "openapi/_original/ticket-forms-openapi-original.yml",
+   "openapi/_original/ticket-metrics-openapi-original.yml",
+   "openapi/_original/tickets-openapi-original.yml",
+   "openapi/_original/trigger-categories-openapi-original.yml",
+   "openapi/_original/triggers-openapi-original.yml",
+   "openapi/_original/uploads-openapi-original.yml",
+   "openapi/_original/user-fields-openapi-original.yml",
+   "openapi/_original/users-openapi-original.yml",
+   "openapi/_original/views-openapi-original.yml",
+   "openapi/_original/workspaces-openapi-original.yml",
+   "openapi/_original/zendesk-support-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zoho-desk",
+  "specs": [
+   "openapi/_original/zoho-desk-openapi.yml"
+  ]
+ }
+]

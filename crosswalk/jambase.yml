@@ -1,0 +1,20 @@
+provider: jambase
+apis_io: https://apis.io/providers/jambase/
+context: events
+generated: '2026-11-10'
+concepts:
+  event:
+    path_segment:
+    - events
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/jambase-openapi.json#GET /events
+    - openapi/_original/jambase-openapi.json#GET /festivals/{festivalSeriesId}/events
+  venue:
+    path_segment:
+    - venues
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/jambase-openapi.json#GET /venues
