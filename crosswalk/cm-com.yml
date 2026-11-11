@@ -25,9 +25,9 @@ concepts:
       created_at: created_at
       description: description
       time_zone: timezone
-      event_type: eventType
       updated_at: updated_at
-    core_coverage: 1.0
+      event_type: eventType
+    core_coverage: 0.833
     evidence:
     - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#DELETE /entrance/v1.0/organisations/{organisationUuid}/events/{eventUuid}
     - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#GET /entrance/v1.0/organisations/{organisationUuid}/events
@@ -39,10 +39,10 @@ concepts:
     - venues
     - venue
     properties:
+      name: name
       id:
       - uuid
       - externalId
-      name: name
     core_coverage: 0.667
     evidence:
     - openapi/_original/cm-com-live-entrance-management-v1-openapi.yml#DELETE /entrance/v1.0/organisations/{organisationUuid}/venues/{venueUuid}

@@ -10,6 +10,15 @@ generated. Every number below is a count of providers.
 ## What the market already agrees on
 
 <!-- commons:summary -->
+| Concept | Expose it | Readable schema | Core properties (share) | Collection named |
+| --- | ---: | ---: | --- | --- |
+| event | 25 | 21 | name 90%, start_at 81%, end_at 76%, id 71%, category 57%, status 57% | events 23, event 5, attractions 1 |
+| venue | 7 | 7 | name 100%, id 86%, address 71% | venues 7, venue 1 |
+| ticket_type | 5 | 3 | description 100%, id 100%, name 100%, price 100% | ticket-types 2, products 1, ticket_classes 1, ticket_types 1 |
+| ticket | 11 | 8 | id 50%, status 50% | tickets 9, ticket 2, passes 1, issued_tickets 1 |
+| attendee | 15 | 11 | email 73%, first_name 64%, id 64%, last_name 64%, name 64% | attendees 8, attendee 3, registrations 3, registrants 2 |
+
+Cohort: 123 providers with harvested OpenAPI, 26 crosswalks. Of the providers exposing a event: 44% create, 92% list, 88% fetch, 40% update, 40% delete. Generated 2026-11-10 by build.py.
 <!-- /commons:summary -->
 
 Shares are of the providers with a readable resource schema for that concept. The

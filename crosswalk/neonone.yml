@@ -10,7 +10,7 @@ concepts:
       name: name
       id: id
       category: category
-    core_coverage: 0.6
+    core_coverage: 0.5
     evidence:
     - openapi/_original/neonone-openapi.yml#DELETE /events/{id}
     - openapi/_original/neonone-openapi.yml#GET /events/{id}

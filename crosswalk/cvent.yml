@@ -23,8 +23,8 @@ concepts:
       created_at: created
       description: description
       time_zone: timezone
-      currency: currency
       updated_at: lastModified
+      currency: currency
     core_coverage: 1.0
     evidence:
     - openapi/_original/cvent-openapi.json#GET /events
@@ -39,16 +39,22 @@ concepts:
     properties:
       email: email
       first_name: first_name
+      id: id
       last_name: last_name
       name: name
-      id: id
       checked_in: checkedIn
       event_id:
       - event_id
       - eventId
       - event
-      registration_status: registrationStatus
       status: status
+      created_at:
+      - created_at
+      - created
+      registration_status: registrationStatus
+      updated_at:
+      - updated_at
+      - lastModified
     core_coverage: 1.0
     evidence:
     - openapi/_original/cvent-openapi.json#DELETE /audience-segments/{audienceSegmentId}/attendees/{attendeeId}

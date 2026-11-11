@@ -13,7 +13,7 @@ concepts:
       id: id
       status: status
       time_zone: timezone
-    core_coverage: 0.8
+    core_coverage: 0.833
     evidence:
     - openapi/_original/swoogo-openapi.yml#GET /events
     - openapi/_original/swoogo-openapi.yml#GET /events/{event_id}
@@ -25,8 +25,8 @@ concepts:
     properties:
       email: email
       first_name: first_name
-      last_name: last_name
       id: id
+      last_name: last_name
       checked_in: checked_in
       event_id: event_id
     core_coverage: 0.8

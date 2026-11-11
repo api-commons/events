@@ -17,7 +17,7 @@ concepts:
       description: description
       time_zone: time_zone
       event_type: event_type
-    core_coverage: 0.6
+    core_coverage: 0.667
     evidence:
     - openapi/_original/constant-contact-v3-openapi.yml#GET /events
     - openapi/_original/constant-contact-v3-openapi.yml#GET /events/{event_id}

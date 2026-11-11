@@ -25,8 +25,8 @@ concepts:
     path_segment:
     - venues
     properties:
-      id: id
       name: name
+      id: id
       city: city
       postal_code: postal_code
     core_coverage: 0.667

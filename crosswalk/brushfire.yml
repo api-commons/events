@@ -18,7 +18,7 @@ concepts:
       created_at: CreatedAt
       currency: Currency
       event_type: EventType
-    core_coverage: 0.8
+    core_coverage: 0.833
     evidence:
     - openapi/_original/brushfire-openapi.json#DELETE /cart/{cartId}/events/{eventId}
     - openapi/_original/brushfire-openapi.json#DELETE /events/{eventId}
@@ -31,18 +31,18 @@ concepts:
     properties:
       email: Email
       first_name: FirstName
+      id:
+      - Id
+      - ExternalId
+      - AttendeeId
       last_name: LastName
       name:
       - DisplayName
       - Name
-      id:
-      - Id
-      - AttendeeId
-      - ExternalId
-      city: City
       event_id: EventId
-      country: Country
+      city: City
       status: Status
+      country: Country
     core_coverage: 1.0
     evidence:
     - openapi/_original/brushfire-openapi.json#DELETE /cart/{cartId}/events/{eventId}/attendees/{attendeeId}

@@ -84,8 +84,8 @@ concepts:
     properties:
     - name: name
       tier: core
-      providers: 18
-      share: 0.857
+      providers: 19
+      share: 0.905
       type: string
       spellings:
       - name
@@ -93,8 +93,8 @@ concepts:
       - Title
     - name: start_at
       tier: core
-      providers: 16
-      share: 0.762
+      providers: 17
+      share: 0.81
       type: string
       spellings:
       - start_time
@@ -107,8 +107,8 @@ concepts:
       - start_at
     - name: end_at
       tier: core
-      providers: 15
-      share: 0.714
+      providers: 16
+      share: 0.762
       type: string
       spellings:
       - end_time
@@ -133,34 +133,36 @@ concepts:
       - _id
     - name: category
       tier: core
-      providers: 11
-      share: 0.524
+      providers: 12
+      share: 0.571
       type: string
       spellings:
       - type
       - category
       - categories
       - classification
+      - '@type'
       - classifications
     - name: status
-      tier: extended
-      providers: 10
-      share: 0.476
+      tier: core
+      providers: 12
+      share: 0.571
       type: string
       spellings:
       - status
-      - IsPublished
       - eventStatus
+      - IsPublished
       - isPublished
+      - saleStatus
     - name: venue_id
       tier: extended
-      providers: 9
-      share: 0.429
+      providers: 10
+      share: 0.476
       type: object
       spellings:
       - venue
-      - venue_id
       - location
+      - venue_id
       - Location
       - venues
     - name: created_at
@@ -190,6 +192,17 @@ concepts:
       spellings:
       - timezone
       - time_zone
+    - name: updated_at
+      tier: extended
+      providers: 6
+      share: 0.286
+      type: string
+      spellings:
+      - updatedAt
+      - updated_at
+      - lastModified
+      - dateModified
+      - modified
     - name: currency
       tier: extended
       providers: 5
@@ -207,21 +220,11 @@ concepts:
       - eventType
       - event_type
       - EventType
-    - name: updated_at
-      tier: extended
-      providers: 5
-      share: 0.238
-      type: string
-      spellings:
-      - updatedAt
-      - updated_at
-      - lastModified
-      - modified
-    long_tail_count: 563
+    long_tail_count: 581
     long_tail_sample:
     - event_id
-    - pagination
     - address
+    - image
     - languages
     - location_name
     - metadata
@@ -232,13 +235,14 @@ concepts:
     - embedded
     - event_code
     - format
-    - image
     - is_active
     - is_recurring
     - locale
+    - offers
     - organization_id
     - organizer_id
     - registration_url
+    - same_as
     - slug
     - total_items
     - types
@@ -258,7 +262,6 @@ concepts:
     - add_ons
     - addon_title
     - addons
-    - allow_refund_donation
   venue:
     segments_seen:
       venues: 7
@@ -287,6 +290,13 @@ concepts:
       share: 0.143
       tier: long-tail
     properties:
+    - name: name
+      tier: core
+      providers: 7
+      share: 1.0
+      type: string
+      spellings:
+      - name
     - name: id
       tier: core
       providers: 6
@@ -296,17 +306,10 @@ concepts:
       - id
       - uuid
       - externalId
-    - name: name
-      tier: core
-      providers: 6
-      share: 0.857
-      type: string
-      spellings:
-      - name
     - name: address
       tier: core
-      providers: 4
-      share: 0.571
+      providers: 5
+      share: 0.714
       type: object
       spellings:
       - address
@@ -326,23 +329,31 @@ concepts:
       spellings:
       - postal_code
       - postalCode
-    long_tail_count: 23
+    long_tail_count: 35
     long_tail_sample:
     - capacity
     - country
     - embedded
     - latitude
     - longitude
-    - pagination
     - status
     - timezone
     - age_restriction
     - coordinates
+    - date_published
+    - deleted_at
+    - deletion_status
+    - event_id
+    - geo
     - has_upcoming_events
+    - identifier
+    - image
     - images
     - locale
+    - maximum_attendee_capacity
+    - merged_into
     - page_size
-    - request
+    - same_as
     - score
     - slug
     - state_province
@@ -350,7 +361,11 @@ concepts:
     - total_items
     - type
     - upcoming_events
+    - updated_at
     - venue_sections
+    - x_external_identifiers
+    - x_is_permanently_closed
+    - x_num_upcoming_events
   ticket_type:
     segments_seen:
       ticket-types: 2
@@ -412,7 +427,7 @@ concepts:
       spellings:
       - price
       - cost
-    long_tail_count: 74
+    long_tail_count: 73
     long_tail_sample:
     - created_at
     - quantity
@@ -518,7 +533,7 @@ concepts:
       - eventId
       - event
       - event_id
-    long_tail_count: 154
+    long_tail_count: 158
     long_tail_sample:
     - checked_in_at
     - created_at
@@ -534,6 +549,7 @@ concepts:
     - add_ons
     - addonable
     - answers
+    - area
     - barcode_reveal_date
     - barcode_revealed
     - barcodes
@@ -559,7 +575,6 @@ concepts:
     - currency
     - currency_id
     - custom_delivery_note
-    - custom_message
   attendee:
     segments_seen:
       attendees: 8
@@ -621,6 +636,16 @@ concepts:
       - first_name
       - firstName
       - FirstName
+    - name: id
+      tier: core
+      providers: 7
+      share: 0.636
+      type: string
+      spellings:
+      - id
+      - Id
+      - ExternalId
+      - AttendeeId
     - name: last_name
       tier: core
       providers: 7
@@ -641,26 +666,26 @@ concepts:
       - Name
       - title
       - eventName
-    - name: id
-      tier: core
-      providers: 6
-      share: 0.545
-      type: string
-      spellings:
-      - id
-      - Id
-      - AttendeeId
-      - ExternalId
     - name: checked_in
       tier: extended
-      providers: 4
-      share: 0.364
-      type: string
+      providers: 5
+      share: 0.455
+      type: boolean
       spellings:
+      - checked_in
       - checkin_status
       - checkedIn
       - checkedInAt
-      - checked_in
+    - name: event_id
+      tier: extended
+      providers: 5
+      share: 0.455
+      type: string
+      spellings:
+      - event_id
+      - EventId
+      - eventId
+      - event
     - name: city
       tier: extended
       providers: 4
@@ -669,16 +694,14 @@ concepts:
       spellings:
       - city
       - City
-    - name: event_id
+    - name: status
       tier: extended
       providers: 4
       share: 0.364
       type: string
       spellings:
-      - event_id
-      - EventId
-      - eventId
-      - event
+      - status
+      - Status
     - name: country
       tier: extended
       providers: 3
@@ -687,6 +710,15 @@ concepts:
       spellings:
       - country
       - Country
+    - name: created_at
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - created
+      - created_at
+      - createdAt
     - name: registration_status
       tier: extended
       providers: 3
@@ -695,26 +727,27 @@ concepts:
       spellings:
       - registrationStatus
       - registration_status
-    - name: status
+    - name: updated_at
       tier: extended
       providers: 3
       share: 0.273
       type: string
       spellings:
-      - status
-      - Status
-    long_tail_count: 240
+      - updated_at
+      - lastModified
+      - changed
+      - updatedAt
+    long_tail_count: 243
     long_tail_sample:
     - attendance_type
     - contact
     - contact_id
-    - created_at
     - metadata
-    - pagination
+    - order_id
     - questions
     - registered_at
     - registration_id
-    - updated_at
+    - ticket_class_id
     - access_key
     - add_ons
     - added_count
@@ -745,3 +778,4 @@ concepts:
     - buyer_first_name
     - buyer_last_name
     - can_continue
+    - cancelled

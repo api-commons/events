@@ -12,7 +12,7 @@ concepts:
       category: type
       status: status
       venue_id: venue
-    core_coverage: 0.6
+    core_coverage: 0.667
     evidence:
     - openapi/_original/seatgeek-platform-openapi.yml#GET /events
     - openapi/_original/seatgeek-platform-openapi.yml#GET /events/{event_id}
@@ -20,8 +20,8 @@ concepts:
     path_segment:
     - venues
     properties:
-      id: id
       name: name
+      id: id
       address:
       - address
       - location

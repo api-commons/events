@@ -5,6 +5,15 @@
   "description": "The common venue in Events and Ticketing, distilled from 7 providers' own OpenAPI. Each property records the share of them that declare it.",
   "type": "object",
   "properties": {
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 1.0,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "name"
+      ]
+    },
     "id": {
       "type": "string",
       "x-commons-tier": "core",
@@ -16,20 +25,11 @@
         "externalId"
       ]
     },
-    "name": {
-      "type": "string",
-      "x-commons-tier": "core",
-      "x-commons-share": 0.857,
-      "x-commons-providers": 6,
-      "x-commons-spellings": [
-        "name"
-      ]
-    },
     "address": {
       "type": "object",
       "x-commons-tier": "core",
-      "x-commons-share": 0.571,
-      "x-commons-providers": 4,
+      "x-commons-share": 0.714,
+      "x-commons-providers": 5,
       "x-commons-spellings": [
         "address",
         "location"

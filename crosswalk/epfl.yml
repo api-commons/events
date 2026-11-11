@@ -18,7 +18,7 @@ concepts:
       category: category
       created_at: creation_date
       description: description
-    core_coverage: 1.0
+    core_coverage: 0.833
     evidence:
     - openapi/_original/epfl-memento.yaml#GET /events/
     - openapi/_original/epfl-memento.yaml#GET /events/{event__pk}/
@@ -27,8 +27,8 @@ concepts:
     path_segment:
     - registrations
     properties:
-      name: name
       id: id
+      name: name
     core_coverage: 0.4
     evidence:
     - openapi/_original/epfl-memento.yaml#GET /registrations/

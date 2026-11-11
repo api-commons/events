@@ -13,7 +13,7 @@ concepts:
       end_at: endDate
       category: type
       time_zone: timezone
-    core_coverage: 0.8
+    core_coverage: 0.667
     evidence:
     - openapi/_original/sequel-openapi-original.yml#DELETE /customizations/events/event/{eventId}
     - openapi/_original/sequel-openapi-original.yml#DELETE /event/{eventId}

@@ -30,14 +30,16 @@ concepts:
     - attendee
     properties:
       first_name: firstName
+      id: id
       last_name: lastName
       name: name
-      id: id
       checked_in: checkedInAt
       city: city
-      country: country
-      registration_status: registrationStatus
       status: status
+      country: country
+      created_at: createdAt
+      registration_status: registrationStatus
+      updated_at: updatedAt
     core_coverage: 0.8
     evidence:
     - openapi/_original/eventxtra-public-api-openapi.json#GET /public-api/v1/event/{eventId}/attendee

@@ -14,7 +14,7 @@ concepts:
       category:
       - type
       - classifications
-    core_coverage: 0.8
+    core_coverage: 0.667
     evidence:
     - openapi/_original/ticketmaster-discovery-openapi.yml#GET /attractions.json
     - openapi/_original/ticketmaster-discovery-openapi.yml#GET /attractions/{id}.json
@@ -24,8 +24,8 @@ concepts:
     path_segment:
     - venues
     properties:
-      id: id
       name: name
+      id: id
       address:
       - address
       - location

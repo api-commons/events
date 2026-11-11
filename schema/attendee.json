@@ -28,6 +28,18 @@
         "FirstName"
       ]
     },
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.636,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "id",
+        "Id",
+        "ExternalId",
+        "AttendeeId"
+      ]
+    },
     "last_name": {
       "type": "string",
       "x-commons-tier": "core",
@@ -52,28 +64,28 @@
         "eventName"
       ]
     },
-    "id": {
-      "type": "string",
-      "x-commons-tier": "core",
-      "x-commons-share": 0.545,
-      "x-commons-providers": 6,
-      "x-commons-spellings": [
-        "id",
-        "Id",
-        "AttendeeId",
-        "ExternalId"
-      ]
-    },
     "checked_in": {
-      "type": "string",
+      "type": "boolean",
       "x-commons-tier": "extended",
-      "x-commons-share": 0.364,
-      "x-commons-providers": 4,
+      "x-commons-share": 0.455,
+      "x-commons-providers": 5,
       "x-commons-spellings": [
+        "checked_in",
         "checkin_status",
         "checkedIn",
-        "checkedInAt",
-        "checked_in"
+        "checkedInAt"
+      ]
+    },
+    "event_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.455,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "event_id",
+        "EventId",
+        "eventId",
+        "event"
       ]
     },
     "city": {
@@ -86,16 +98,14 @@
         "City"
       ]
     },
-    "event_id": {
+    "status": {
       "type": "string",
       "x-commons-tier": "extended",
       "x-commons-share": 0.364,
       "x-commons-providers": 4,
       "x-commons-spellings": [
-        "event_id",
-        "EventId",
-        "eventId",
-        "event"
+        "status",
+        "Status"
       ]
     },
     "country": {
@@ -108,6 +118,18 @@
         "Country"
       ]
     },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.273,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "created",
+        "created_at",
+        "createdAt"
+      ],
+      "format": "date-time"
+    },
     "registration_status": {
       "type": "string",
       "x-commons-tier": "extended",
@@ -118,15 +140,18 @@
         "registration_status"
       ]
     },
-    "status": {
+    "updated_at": {
       "type": "string",
       "x-commons-tier": "extended",
       "x-commons-share": 0.273,
       "x-commons-providers": 3,
       "x-commons-spellings": [
-        "status",
-        "Status"
-      ]
+        "updated_at",
+        "lastModified",
+        "changed",
+        "updatedAt"
+      ],
+      "format": "date-time"
     }
   },
   "required": [
