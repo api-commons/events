@@ -103,3 +103,6 @@ decisions:
   - "Shows, performances and attractions are events; registrants, registrations and guests
     are attendees; passes and admissions are tickets."
   - "Duplicates merged: six Cvent listings, GoTo Webinar."
+standards:
+  - standard: schemaorg-30.1
+    concepts: {event: [Event], venue: [Place]}
