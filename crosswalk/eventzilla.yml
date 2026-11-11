@@ -1,7 +1,7 @@
 provider: eventzilla
 apis_io: https://apis.io/providers/eventzilla/
 context: events
-generated: '2026-11-10'
+generated: '2026-11-11'
 concepts:
   event:
     path_segment:

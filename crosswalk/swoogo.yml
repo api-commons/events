@@ -1,7 +1,7 @@
 provider: swoogo
 apis_io: https://apis.io/providers/swoogo/
 context: events
-generated: '2026-11-10'
+generated: '2026-11-11'
 concepts:
   event:
     path_segment:
